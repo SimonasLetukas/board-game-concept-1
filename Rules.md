@@ -1,0 +1,83 @@
+OBJECTIVE
+- TBD: Score most points in X rounds / reach X points.
+
+COMPONENTS
+- Resource tokens: money and influence.
+- Career board: 3 branches (executive, logistics, security), each with 6 positions (1 president - manager, 2 directors - managers, 2 employees, 1 unemployed), 18 player tokens (6 players in positions x 3 branches).
+- Logistics tokens: 1 tax and 1 discount token to be put on auction board.
+- Zoning tokens: 3 zoning tokens to be put on the map board.
+- Ambitions board: ambitions deck (15 face-down cards), declared ambitions (3 levels, each has space for a face-up ambition card).
+- Auction board: 2 / 3 tracks (count and names TBD: economy, mobility, warfare), each with a deck of 15 face-down agent cards, a face-up discard deck, and 3 bidding levels (each has space for a face-up agent card).
+- Map board: sectors linked by connections (count TBD), each sector has an empty space for a building and a couple of empty spaces for a hub (money or influence).
+- Manpower tokens: tokens (count and types TBD) used on the map board for each of the 6 players. 
+- Building tokens: manufactory, office, datacenter tokens (count and names TBD) for each of the 6 players.
+- Operation tokens: 5 numbered operation tokens for each of the 6 players.
+- Hub tokens: money and influence hub tokens (count TBD) used on the map board.
+- Faction boards: 6 faction boards (count TBD), each with a printed ability and starting conditions, a set of 4 (count TBD) starting agent cards, 4 (count TBD) empty spaces for face-up agent cards, 1 faction ambition card, 2 / 3 (count TBD, same as auction board track count) special agent cards.
+
+SETUP
+- Players select their faction and pieces color.
+- The player who has the faction with the highest prestige takes the interim executive president position.
+- Each faction puts their faction ambition card to the ambition deck, togther with the base ambition cards. The deck is then shuffled.
+- Each faction puts their special agent cards to the appropriate auction track deck, together with the base agent cards. Each deck is then shuffled.
+- Starting from the cheapest lot, each auction track is filled with agent cards from the appropriate deck.
+- Each player puts manpower and building tokens on the map board according to the faction starting conditions.
+
+STRUCTURE
+- Each round consists of 4 phases: career, auction, map and scoring. 
+- Career phase:
+	- Career phase consists of 2 steps: hiring and working.
+		- Hiring step:
+			- Previous executive president becomes the interim executive president, every other position in all branches is emptied. 
+			- For each career branch, every player bids their influence to determine the president, then managers (presidents and directors) promote players to lower positions.
+			- During bidding, the player with the highest bid becomes the president, this player then loses the influence that was bid. The executive president (or interim) resolves any tied bids. 
+			- The promotion starts with the president who picks players to become directors. The directors then each pick one player to become an employee. One player is always left unemployed.
+		- Working step:
+			- For each career branch, starting with the president and going in hiring order, each player executes actions described in their position. Generally, the actions in higher positions are more strategically impactful, while lower positions (except unemployed) are more tactically impactful.
+			- Working abilities of executive branch:
+				- Executive president draws 3 ambition cards from the deck and declares a new ambition by putting one card face-up on one of the spaces of the declared ambitions track. If there is already a declared ambition on that space, it moves to the bottom of the ambitions card deck.
+				- Each executive director in turn draws 2 cards from the bottom of the ambitions card deck. Then, in turn, they may put 1 card on top of the deck. 
+				- Each executive employee in turn may move the position of 1 declared ambition card one space to the left or right. This could result in declared ambitions switching places. 
+			- Working abilities of logistics branch:
+				- Logistics president may set/remove the tax token to/from one of the auction tracks; then they may set/remove discount token to/from one of the remaining auction tracks. All agent cards in the taxed track cost 1 more resource (either influence or money) and whenever the card is bought, this resource is collected by the logistics president player. All agent cards in the discounted track cost 1 less resource (either influence or money).
+				- Each logistics director in turn searches 1 agent card from the discard deck in one of the auction tracks, then puts this card either to the top or the bottom of the auctions card deck for that track.
+				- Each logistics employee in turn may discard one face-up agent card from the auction, then that auction track is refreshed.
+			- Working abilities of security branch:
+				- Security president places 3 zoning tokens on the map (effect TBD). Security president also resolves ties in battles.
+				- Each security director in turn may move 1 influence or money hub to an empty space in an adjacent sector on the map. A single hub cannot be moved twice during the career phase.
+				- Each security employee in turn (TBD).
+	- Each branch determines the order of play for different aspects in the game, starting with the unemployed player and going back to the president in the reverse hiring order:
+		- Executive branch determines scoring order.
+		- Logistics branch determines auction order.
+		- Security branch determines map order.
+	- Manager positions (presidents and directors) receive bonus influence at the end of the round.
+- Auction phase:
+	- In auction order (determined by the logistics career branch) each player may buy 1 card from the auction. The price is determined by the bidding level (more expensive closer to the deck), and can be modified by the card itself and any tax or discount tokens next to the auction track. When the card is bought, it is added to the player's deck, and that auction track is refreshed. 
+	- Refreshing the auction track is done in two steps: all cards are shifted away from the deck, to the cheapest possible empty space. Then starting from the cheapest possible empty space, each space is filled with a new agent card from the top of the deck. 
+- Map phase:
+	- Map phase consists of 2 steps: planning and acting.
+		- Planning step:
+			- Each player simultaneously puts a number of agent cards (3 cards at game start) from their hand to the top of the faction board, face-down and in sequence. For each face-down card, a corresponding operation token is placed on a sector on the the map board. This means that the operation ability on the agent card would affect a specific sector on the map board.
+			- During this step, the agent cards hand of each player is not public knowledge to other players.
+			- Once all players have placed their agent cards and operation tokens, all cards are revealed and acting step begins.
+		- Acting step:
+			- In map order (determined by the security career branch), each player resolves the operation ability of any one of the remaining face-up agent cards in a designated sector on the map board. During resolution, the sector is considered active. Once resolved, the agent card is discarded to the appropriate auction discard deck, unless noted otherwise. 
+			- At the start of the turn, the player may choose to pass. The player must pass if they don't have any remaining face-up agent cards. When every player passes, the scoring phase begins.
+			- The keywords of the common operation abilities are further described below:
+				- Loyal: 
+					- This agent cannot be owned by any other player.
+					- When this agent would be discarded, put it back to the owner player hand.
+				- React: operation ability can be activated during any player turn, once activated the card is discarded, unless noted otherwise.
+				- Move: the active player moves their manpower tokens (TBD).
+				- Attack: 
+					- The attacking player selects a player with pieces in the active sector.
+					- Each participating player counts the power of their manpower tokens (TBD) in the active sector, then adds the power of any supporting manpower tokens.
+					- Then, in secret, each participating player must select one agent card from their hand, if able. The cards are revealed at the same time, combat bonuses are calculated, together with any combat effects.
+					- Whoever has more power wins. Ties are resolved by security president.
+					- The losing player must retreat to adjacent sector, if able. Losing player also discards any operation tokens (and corresponding agent card) in the active sector.
+				- Construct: the active player places a building (TBD) on an empty building slot in the active sector.
+				- Extract: the active player executes the ability (TBD) of each building in the active sector.
+- Scoring phase:
+	- In scoring order (determined by the executive career branch) each player selects 1 declared ambition and, if the requirements are fulfilled, gains the amount of points according to the ambition level.
+	- The winner is determined (TBD).
+	- Each player gains influence for each career position: 2 influence for each manager position and 1 influence otherwise.
