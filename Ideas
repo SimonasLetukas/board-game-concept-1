@@ -46,7 +46,6 @@ Offices:
 	C: Decides combat ties, declares combat/peace zones
 
 
-
 Auction card could have up to 3 abilities (and be represented as an "agent"): 1 passive, 1 map, 1 battle (+ strength)
 Or would be 2 abilities: 1 map 1 battle, but once revealed gives the passive effect
 
@@ -55,6 +54,8 @@ Somehow to convert money to influence???
 AUCTION CARD or ABILITY IDEAS
 	Money hubs cannot be moved in controlled spaces with a manufactory (another one with influence hub / office building)
 	Get money / influence for each manager position 
+	Players do not gain influence or money for the fight
+	Pay influence to put the agent back to the owner player hand to avoid discarding
 	
 AMBITION CARD IDEAS
 	Pay X money
