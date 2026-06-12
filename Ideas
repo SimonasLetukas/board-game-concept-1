@@ -1,61 +1,57 @@
-Deep deterministic tactical area control, tension and combat
+DRIVERS
+	Deep deterministic tactical area control, tension and combat
+	Constrained resources
+	Simultaneous orders, hidden first, then revealed
+	Blind-bidding on influence tracks that give bonuses (and order) to different game dimensions
+		Getting higher level in the office should be more costly in terms of resources and/or should take more time to "climb the corporate ladder".
+		Higher level positions should bring higher abstraction level power, i.e. be more strategic in nature. Declaring a scoring ambition seems to be the peak power level for strategic actions.
+		Let's keep 3 tracks as you suggested: executive, logistics and security.
+		Consider how the bidding vs appointing mechanics should co-exist and interact with each other. Because higher level positions are more costly, they could also hold the power of appointing other players into the lower positions.
+		The setup should support multiple players holding multiple positions, so that the game is flexible in lower player counts as well as higher player counts. Let's aim for 3-6 players, with 5 being the optimal amount.
+		Consider the main drivers from the games referenced before: reading opponents, negotiation, political bargaining, limited military resources, timing & opportunism, incentive engineering, managing collective risk vs private gain. 
+	Running for offices (could be combined with influence tracks) with certain corporate hierarchies (levels of power, but also higher "abstraction of power", i.e. more tactical control on lower hierarchy levels, but higher strategic control on higher hierarchy levels)
+	Player-declared scoring as ambitions, shifting the focus for what's important for all players
+	Enough design space for asymmetric factions
+	High level of interaction between players
 
-Constrainer resources
+RESEARCH
+	Interesting/relevant mechanics from the list https://boardgamedesignlab.com/mechanism-master-list/
+		Action drafting - shared pool of available actions
+		Action points - resource for selecting certain actions
+		Action / event - choose between action points or event execution; others could gain the opposite effect
+		Action queue - local or global creation of sequence of actions
+		Action retrieval - actions as a resource, once spent, it needs to be retrieved to be spent again
+		Advantage token - passable token that permits a special action
+		Area majority / influence - proportional benefit in a shared occupied space
+		Area movement - game board is divided into areas that determine adjacency and movement 
+		Area-impulse - turn subdivision to have smaller movement actions until exhaustion (TI4 action phase)
+		Auction: sealed bid - players secretly make a bid, then reveal simultaneously
+		Betting & bluffing: players commit a stake of currency or resources to purchase a chance of winning everyone’s stake
+		Bribery: offer bribes to other players to get them to perform specific actions
+	"Maybe" mechanics:
+		Auction / bidding - take control of items by spending resources in a competing manner with other players
+		Auction: dutch - selection of items for bidding starts expensive and the cost goes down gradually
+		Auction: fixed placement - bids are places on lots, players can outbid each other, highest bidder for each lot wins
+		Bias: pieces automatically move in a certain direction, or it is easier to move in a certain direction
 
-Simultaneous orders, hidden first, then revealed
-
-Blind-bidding on influence tracks that give bonuses (and order) to different game dimensions
-	Getting higher level in the office should be more costly in terms of resources and/or should take more time to "climb the corporate ladder".
-	Higher level positions should bring higher abstraction level power, i.e. be more strategic in nature. Declaring a scoring ambition seems to be the peak power level for strategic actions.
-	Let's keep 3 tracks as you suggested: executive, logistics and security.
-	Consider how the bidding vs appointing mechanics should co-exist and interact with each other. Because higher level positions are more costly, they could also hold the power of appointing other players into the lower positions.
-	The setup should support multiple players holding multiple positions, so that the game is flexible in lower player counts as well as higher player counts. Let's aim for 3-6 players, with 5 being the optimal amount.
-	Consider the main drivers from the games referenced before: reading opponents, negotiation, political bargaining, limited military resources, timing & opportunism, incentive engineering, managing collective risk vs private gain. 
-
-Running for offices (could be combined with influence tracks) with certain corporate hierarchies (levels of power, but also higher "abstraction of power", i.e. more tactical control on lower hierarchy levels, but higher strategic control on higher hierarchy levels)
-
-Player-declared scoring as ambitions, shifting the focus for what's important for all players
-
-Enough design space for asymmetric factions
-
-High level of interaction between players
-
-Interesting/relevant mechanics from the list https://boardgamedesignlab.com/mechanism-master-list/
-	Action drafting - shared pool of available actions
-	Action points - resource for selecting certain actions
-	Action / event - choose between action points or event execution; others could gain the opposite effect
-	Action queue - local or global creation of sequence of actions
-	Action retrieval - actions as a resource, once spent, it needs to be retrieved to be spent again
-	Advantage token - passable token that permits a special action
-	Area majority / influence - proportional benefit in a shared occupied space
-	Area movement - game board is divided into areas that determine adjacency and movement 
-	Area-impulse - turn subdivision to have smaller movement actions until exhaustion (TI4 action phase)
-	Auction: sealed bid - players secretly make a bid, then reveal simultaneously
-	Betting & bluffing: players commit a stake of currency or resources to purchase a chance of winning everyone’s stake
-	Bribery: offer bribes to other players to get them to perform specific actions
-
-"Maybe" mechanics:
-	Auction / bidding - take control of items by spending resources in a competing manner with other players
-	Auction: dutch - selection of items for bidding starts expensive and the cost goes down gradually
-	Auction: fixed placement - bids are places on lots, players can outbid each other, highest bidder for each lot wins
-	Bias: pieces automatically move in a certain direction, or it is easier to move in a certain direction
-
-Offices:
+OFFICE TRACKS
 	A: Sets ambition (scoring)
 	B: Picks first from action drafting
 	C: Decides combat ties, declares combat/peace zones
 
-
-Auction card could have up to 3 abilities (and be represented as an "agent"): 1 passive, 1 map, 1 battle (+ strength)
-Or would be 2 abilities: 1 map 1 battle, but once revealed gives the passive effect
-
-Somehow to convert money to influence???
+MECHANICS IDEAS
+	Auction card could have up to 3 abilities (and be represented as an "agent"): 1 passive, 1 map, 1 battle (+ strength)
+	Or would be 2 abilities: 1 map 1 battle, but once revealed gives the passive effect
+	Somehow to convert money to influence???
 
 AUCTION CARD or ABILITY IDEAS
 	Money hubs cannot be moved in controlled spaces with a manufactory (another one with influence hub / office building)
 	Get money / influence for each manager position 
 	Players do not gain influence or money for the fight
 	Pay influence to put the agent back to the owner player hand to avoid discarding
+	Remove manpower from the active sector and put it on the card. At the end of map phase the manpower is destroyed and the card is discarded. React: when defending against an attack place the manpower from the card on the active sector, then discard this card.
+	Supports adjacent sector multiple times (without discarding)
+	Supports all sectors (not impacted by adjacency) but discards after use
 	
 AMBITION CARD IDEAS
 	Pay X money
@@ -68,3 +64,10 @@ AMBITION CARD IDEAS
 
 DESIGN CHALLENGES
 	Kingmaking / last round when the winner is clear
+	Analysis paralysis because most information is public
+	Winning feels random because it depends on other players placing you to the right position, "allowing" you to win
+	Amount of different cards creates a "knowledge wall", so the game is harder to learn and master
+
+ALTERNATIVE THEMES
+	HELL: various bureaucratic infernal factions trying to seize power. 
+		Corporate levels: devil, pit lord, fiend, imp
