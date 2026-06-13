@@ -8,8 +8,8 @@ COMPONENTS
 - Zoning tokens: 2 zoning tokens to be put on the map board.
 - Funding token: 1 funding token to be put on the map board.
 - Ambitions board: ambitions deck (15 face-down cards), declared ambitions (3 levels, each has space for a face-up ambition card).
-- Auction board: 2 / 3 tracks (count and names TBD: economy, mobility, warfare), each with a deck of 15 face-down agent cards, a face-up discard deck, and 3 bidding levels (each has space for a face-up agent card).
-- Map board: sectors linked by connections (count TBD), each sector has an empty space for a building and a couple of empty spaces for a hub (money or influence).
+- Auction board: 3 tracks (economy, mobility, warfare), each with a deck of 15 face-down agent cards, a face-up discard deck, and 3 bidding levels (each has space for a face-up agent card).
+- Map board: 20 sectors linked by connections, each sector may have a single or multiple empty spaces for buildings and an empty space for a hub (money or influence), there is a funding track at the top right of the board.
 - Manpower tokens: 8 regular and 4 specialist tokens used on the map board for each of the 6 players. 
 - Building tokens: 9 manufactory, 7 office, 5 academy tokens used on the map board.
 - Operation tokens: 5 numbered operation tokens for each of the 6 players.
@@ -18,11 +18,10 @@ COMPONENTS
 
 SETUP
 - Players select their faction and pieces color.
-- The player who has the faction with the highest prestige takes the interim executive president position.
-- Each faction puts their faction ambition card to the ambition deck, togther with the base ambition cards. The deck is then shuffled.
+- All players are sorted by their faction prestige. The player who has the faction with the highest prestige takes the interim executive president position. Then, starting with the player who has the faction with the lowest prestige and going upward, each player places their faction starting pieces (manpower and building tokens) on the sector with the lowest unclaimed number (example: lowest prestige faction always takes sector numbered "1").
+- Each faction puts their faction ambition card to the ambition deck, together with the base ambition cards. The deck is then shuffled.
 - Each faction puts their special agent cards to the appropriate auction track deck, together with the base agent cards. Each deck is then shuffled.
 - Starting from the cheapest lot, each auction track is filled with agent cards from the appropriate deck.
-- Each player puts manpower and building tokens on the map board according to the faction starting conditions.
 
 STRUCTURE
 - Each round consists of 4 phases: career, auction, map and scoring. 
@@ -72,12 +71,13 @@ STRUCTURE
 				- Move: the active player moves any number of their manpower tokens from the active sector to an adjacent sector. The resulting manpower cannot exceed the funding level. 
 				- Attack: 
 					- The attacking player selects a player with pieces in the active sector.
-					- Each participating player counts the power of their manpower tokens (regulars provide 1 power, specialists provide 2 power when attacking and 0 power when defending) in the active sector, then adds the power of any supporting manpower tokens.
+					- Each participating player counts the power of their manpower tokens (regulars provide 1 power, specialists provide 2 power when attacking and 0 power when defending, unless noted otherwise) in the active sector, then adds the power of any supporting manpower tokens.
 					- Then, in secret, each participating player must select one agent card from their hand, if able. The cards are revealed at the same time, combat bonuses are calculated, together with any combat effects.
 					- Whoever has more power wins. Ties are resolved by security president.
 					- The losing player must retreat their manpower to an adjacent sector, if able (for example, if the resulting manpower does not exceed the funding level). The retreated manpower is set as exhausted - their power is 0. Losing player also discards any operation tokens (and corresponding agent card) in the active sector.
 					- The winning player collects 2 influence. Winning player may choose to destroy buildings in the active sector, getting 1 influence for each destroyed building.
 					- If the active sector is marked as a bounty zone (by security president), the winning player collects 2 money, plus 1 money for each destroyed manpower, including their own.
+				- Support: manpower in this sector can be counted during attack in another sector. Any player can be supported. Supporting manpower is not exhausted.
 				- Construct: the active player pays the price and places a building on an empty building slot in the active sector.
 					- Manufactory costs 1 influence.
 					- Office costs 3 money.
