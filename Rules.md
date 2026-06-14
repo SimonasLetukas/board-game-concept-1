@@ -78,6 +78,8 @@ STRUCTURE
 					- The winning player collects 2 influence. Winning player may choose to destroy buildings in the active sector, getting 1 influence for each destroyed building.
 					- If the active sector is marked as a bounty zone (by security president), the winning player collects 2 money, plus 1 money for each destroyed manpower, including their own.
 				- Support: manpower in this sector can be counted during attack in another sector. Any player can be supported. Supporting manpower is not exhausted.
+				- Patrol: surpresses support, construct and extract abilities in this or another sector, the activation of these abilities have no effect.
+				- Defend X: manpower in this sector gains additional X power when defending.
 				- Construct: the active player pays the price and places a building on an empty building slot in the active sector.
 					- Manufactory costs 1 influence.
 					- Office costs 3 money.
@@ -88,6 +90,8 @@ STRUCTURE
 					- Manufactory: if only one player owns manpower in the active sector, they collect 3 money; otherwise, each player with manpower in the active sector collects 1 money.
 					- Office: if only one player owns manpower in the active sector, they collect 2 influence.
 					- Academy: if only one player owns manpower in the active sector, they produce 1 manpower token (regular or specialist), if able. Limiting factors may include: exceeding funding level in the sector, running out of manpower tokens.
+				- Execute X: after an attack, the winning player may choose to destroy X manpower.
+				- Heal X: after an attack, the losing player may cancel X execute abilities targetting their manpower or ignore exhaustion for X manpower during retreat. When activated outside of combat, the player readies X of their exhausted manpower in the active sector.
 - Scoring phase:
 	- In scoring order (determined by the executive career branch) each player selects 1 declared ambition and, if the requirements are fulfilled, gains the amount of points according to the ambition level.
 	- The winner is determined (TBD).
