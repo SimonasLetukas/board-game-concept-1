@@ -46,6 +46,8 @@ MECHANICS IDEAS
 		Map abilities could be a simple keyword (or a combination of keywords): move, attack, construct, move + attack, etc.
 		How and when should the passive agent ability be activated?
 	Ability to somehow convert money to influence???
+	Agent card abilities that revolve around having another agent in hand, or face-up, or discarded. Think of which faction fits best.
+	Specialist manpower could have different abilities per faction / card.
 
 FACTION IDEAS
 	Economic: high wealth coupled with high expense
@@ -66,6 +68,10 @@ AGENT CARD or ABILITY IDEAS
 		Select an operation token in the active or adjacent sector. Pay to move it to an adjacent sector.
 		Move any number of manpower tokens in the active sector to any number of sectors with your manpower tokens.
 		Players may not move out of or into this sector.
+		Defensive: 3 attacks
+		Defensive: while this card is unresolved, other players cannot move into this sector. Resolve: extract
+		Defensive: if there are no players with manpower in this sector, gain extract 2x; otherwise construct
+		Move, take operation token to the target sector, place a new agent card
 	Combat:
 		Players do not gain influence or money for the fight.
 		Combat strength of enemy agent is reduced to 0.
@@ -89,14 +95,18 @@ AGENT CARD or ABILITY IDEAS
 		Your Operation Tokens can activate sectors adjacent to where they are physically placed.
 		Gain +1 funding.
 		Gain +1 operation slot.
+		Defensive: pay 1 influence to the Defensive player, if you do (or you are the Defensive player), you may play 2 operations in any one sector.
+		Manipulative: pay 2 influence to force the manager to pick a player for a position
 	Any:
 		Get money / influence for each manager position.
 		Pay influence to put the agent back to the owner player hand to avoid discarding.
 		Convert money to influence at 3:1 rate. 
+		Manipulative: If you win the combat, switch any two career positions of the selected branch. Select one of the switched players to work in the new position.
 	
 AMBITION CARD IDEAS
 	Pay X money
 	Pay X influence
+	Pay X money AND influence
 	Control X sectors
 		Control a chain of sectors
 	Control X sectors without buildings and hubs
@@ -108,7 +118,7 @@ AMBITION CARD IDEAS
 	Have X manpower in 1 sector
 	Transfer X units/money/influence to another player with lowest score
 	Win a battle against player with the highest score
-	Have at least 1 unemployed position.
+	Manipulative: Have at least 1 unemployed positions.
 
 DESIGN CHALLENGES
 	Kingmaking / last round when the winner is clear

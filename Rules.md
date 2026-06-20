@@ -1,27 +1,78 @@
+THEME
+- TBD: Corporate hell, literally
+
 OBJECTIVE
-- TBD: Score most points in X rounds / reach X points.
+- First player who reaches 20 points wins, at which point the game stops. 
+- The remaining positions are then determined in a tiebreaker priority: points, sum of money and influence, manpower tokens on the map board, scoring order. 
 
 COMPONENTS
-- Resource tokens: money and influence.
+- Resource tokens: Money and influence.
 - Career board: 3 branches (executive, logistics, security), each with 6 positions (1 president - manager, 2 directors - managers, 2 employees, 1 unemployed), 18 player tokens (6 players in positions x 3 branches).
 - Logistics tokens: 1 tax and 1 discount token to be put on auction board.
 - Zoning tokens: 2 zoning tokens to be put on the map board.
 - Funding token: 1 funding token to be put on the map board.
-- Ambitions board: ambitions deck (15 face-down cards), declared ambitions (3 levels, each has space for a face-up ambition card).
+- Ambitions board: Ambitions deck (15 face-down cards), declared ambitions (3 levels, each has space for a face-up ambition card).
 - Auction board: 3 tracks (economy, mobility, warfare), each with a deck of 15 face-down agent cards, a face-up discard deck, and 3 bidding levels (each has space for a face-up agent card).
 - Map board: 20 sectors linked by connections, each sector may have a single or multiple empty spaces for buildings and an empty space for a hub (money or influence), there is a funding track at the top right of the board.
 - Manpower tokens: 8 regular and 4 specialist tokens used on the map board for each of the 6 players. 
 - Building tokens: 9 manufactory, 7 office, 5 academy tokens used on the map board.
 - Operation tokens: 5 numbered operation tokens for each of the 6 players.
 - Hub tokens: 2 money and 1 influence hub tokens used on the map board.
-- Faction boards: 6 faction boards (count TBD), each with a printed ability and starting conditions, a set of 4 (count TBD) starting agent cards, 4 (count TBD) empty spaces for face-up agent cards, 1 faction ambition card, 3 special agent cards.
+- Player pieces (colored): 6 player boards, career tokens, manpower tokens, operation tokens.
+- Faction pieces: 1 faction card with faction abilities and starting conditions, 4 starting agent cards, 1 faction ambition card, 3 special agent cards.
 
 SETUP
-- Players select their faction and pieces color.
+- Players select their faction and color.
 - All players are sorted by their faction prestige. The player who has the faction with the highest prestige takes the interim executive president position. Then, starting with the player who has the faction with the lowest prestige and going upward, each player places their faction starting pieces (manpower and building tokens) on the sector with the lowest unclaimed number (example: lowest prestige faction always takes sector numbered "1").
 - Each faction puts their faction ambition card to the ambition deck, together with the base ambition cards. The deck is then shuffled.
 - Each faction puts their special agent cards to the appropriate auction track deck, together with the base agent cards. Each deck is then shuffled.
 - Starting from the cheapest lot, each auction track is filled with agent cards from the appropriate deck.
+- The money and influence hubs are placed in their starting sectors. The funding level is set to the middle position.
+
+CONCEPTS
+- Funding level: 
+	- The funding level is set by the security president and determines the maximum amount of manpower that all players (combined) may have in one sector, and the maximum number of court cards any player can have face-up.
+	- If a sector has a zoning token, then the maximum amount of manpower is not combined, the manpower of each player is counter separately instead.
+	- When executing any abilities during the game, the funding level must be respected. As an example, it is not allowed to move manpower to a sector which already has a maximum amount of manpower.
+	- Adjusting to the funding level is done by removing any manpower and court above the limit. When multiple players need to remove their manpower from a sector, the security president decides the remaining manpower distribution in that sector. 
+- Agent cards:
+	- Each player has a hand of agent cards, these cards are public information for all players, unless noted otherwise.
+	- An agent card is gained through game setup and by buying from the auction board. In most cases, once used, the agent card is discarded back to the relevant auction discard deck.
+	- Each agent card is multi-functional and could have a combination of features, each explained below:
+		- Card type: A card type is defined by its function (economy, mobility, warfare), origin (faction specific or generic) and any combination of keywords. Various game rules may reference the card type. For example, when discarded, the card is placed in the discard deck that corresponds to the function. Special card type keywords are noted below:
+			- Loyal: 
+				- This agent cannot be owned by any other player.
+				- When this agent would be discarded, put it back to the owner player hand.
+		- Combat ability and power: Each card has a combat power level which is used together with manpower to determine the winner of a combat. In addition, some cards may have combat abilities to be executed before, during or after the combat. The most common abilities are described as keywords, noted below:
+			- Execute X: After an attack, the winning player may choose to destroy X manpower.
+			- Protect X: After an attack, the losing player may cancel X execute abilities targetting their manpower or ignore exhaustion for X manpower during retreat.
+		- Court ability: When an agent card is placed horizontally it then becomes a court card, which allows the use of court abilities, giving passive effects. The amount of court cards each player can have is limited by the funding level. The court cards persist throughout the rounds until discarded (replaced by a new court card or adjusted to the funding level).
+		- Operation ability: When an agent card is placed vertically it then becomes an operation card, which allows execution of operation abilities in the specific sectors on the map board. Some abilities could give a passive effect, be triggered by a condition, or be resolved during a players turn. The most common abilities are described as keywords, noted below:
+			- Support (passive): Manpower in this sector can be counted during attack in another sector. Any player can be supported. Supporting manpower is not exhausted.
+			- Patrol (passive): Surpresses support, construct and extract abilities in this or another sector, the activation of these abilities have no effect.
+			- Defend X (passive): Manpower in this sector gains additional X power when defending.
+			- React (trigger): Operation ability can be activated during any player turn, once activated the card is discarded, unless noted otherwise.
+			- Move (resolve): The active player moves any number of their manpower tokens from the active sector to an adjacent sector. The resulting manpower cannot exceed the funding level. 
+			- Attack (resolve): 
+				- The attacking player selects a player with pieces in the active sector.
+				- Each participating player counts the power of their manpower tokens (regulars provide 1 power, specialists provide 2 power when attacking and 0 power when defending, unless noted otherwise) in the active sector, then adds the power of any supporting manpower tokens.
+				- Then, in secret, each participating player must select one agent card from their hand, if able. The cards are revealed at the same time, combat bonuses are calculated, together with any combat effects.
+				- Whoever has more power wins. Ties are resolved by security president.
+				- The losing player must retreat their manpower to an adjacent sector, if able (for example, if the resulting manpower does not exceed the funding level). The retreated manpower is set as exhausted - their power is 0. Losing player also discards any operation tokens (and corresponding agent card) in the active sector.
+				- The winning player collects 2 influence. Winning player may choose to destroy buildings in the active sector, getting 1 influence for each destroyed building.
+				- If the active sector is marked as a bounty zone (by security president), the winning player collects 2 money, plus 1 money for each destroyed manpower, including their own.
+			- Construct (resolve): The active player pays the price and places a building on an empty building slot in the active sector.
+				- Manufactory costs 1 influence.
+				- Office costs 3 money.
+				- Academy costs 5 money.
+			- Extract (resolve): The active player executes the ability of each building and hub in the active sector.
+				- Money hub: each player with manpower in the active sector collects 2 money.
+				- Influence hub: each player with manpower in the active sector collects 1 influence.
+				- Manufactory: if only one player owns manpower in the active sector, they collect 3 money; otherwise, each player with manpower in the active sector collects 1 money.
+				- Office: if only one player owns manpower in the active sector, they collect 2 influence.
+				- Academy: if only one player owns manpower in the active sector, they produce 1 manpower token (regular or specialist), if able. Limiting factors may include: exceeding funding level in the sector, running out of manpower tokens.
+			- Heal X (resolve): The active player readies X of their exhausted manpower in the active sector.
+- TBD: sector control
 
 STRUCTURE
 - Each round consists of 4 phases: career, auction, map and scoring. 
@@ -43,7 +94,7 @@ STRUCTURE
 				- Each logistics director in turn searches 1 agent card from the discard deck in one of the auction tracks, then puts this card either to the top or the bottom of the auctions card deck for that track.
 				- Each logistics employee in turn may discard one face-up agent card from the auction, then that auction track is refreshed.
 			- Working abilities of security branch:
-				- Security president sets the funding value by placing the funding token on the funding track on the map board, which determines the maximum amount of manpower that each player may have in one sector. All players adjust their manpower, destroying manpower above the funding level. Security president also resolves ties in battles.
+				- Security president demands each player to adjust their manpower and court according to the current funding level; final distribution is decided by the security president. The security president then sets the funding value by placing the funding token on the funding track on the map board. Security president also resolves ties in battles.
 				- Each security director in turn places a zoning token in a sector on the map, giving additional money for players fighting (and winning) in these sectors.
 				- Each security employee in turn may move 1 influence or money hub to an empty space in an adjacent sector on the map. A single hub cannot be moved twice during the career phase.
 	- Each branch determines the order of play for different aspects in the game, starting with the unemployed player and going back to the president in the reverse hiring order:
@@ -52,49 +103,25 @@ STRUCTURE
 		- Security branch determines map order.
 	- Manager positions (presidents and directors) receive bonus influence at the end of the round.
 - Auction phase:
-	- In auction order (determined by the logistics career branch) each player may buy 1 card from the auction. The price is determined by the bidding level (more expensive closer to the deck), and can be modified by the card itself and any tax or discount tokens next to the auction track. When the card is bought, it is added to the player's deck, and that auction track is refreshed. 
+	- In auction order (determined by the logistics career branch) each player who has not yet passed may buy 1 card from the auction, or pass (represented by a player career token in the logistics branch set on its side). The price is determined by the bidding level (more expensive closer to the deck), and can be modified by the card itself and any tax or discount tokens next to the auction track. When the card is bought, it is added to the player's hand, and that auction track is refreshed. 
 	- Refreshing the auction track is done in two steps: all cards are shifted away from the deck, to the cheapest possible empty space. Then starting from the cheapest possible empty space, each space is filled with a new agent card from the top of the deck. 
+	- When every player passes, the map phase begins.
 - Map phase:
 	- Map phase consists of 2 steps: planning and acting.
 		- Planning step:
-			- Each player simultaneously puts a number of agent cards (3 cards at game start) from their hand to the top of the faction board, face-down and in sequence. For each face-down card, a corresponding operation token is placed on a sector on the the map board. This means that the operation ability on the agent card would affect a specific sector on the map board.
+			- Operation abilities: Each player simultaneously puts a number of agent cards (3 cards at game start) from their hand to the top of the player board in a vertical position, face-down and in sequence. For each face-down card, a corresponding operation token is placed on a sector on the the map board. This means that the operation ability on the agent card would affect a specific sector on the map board.
+			- Court abilities: At the same time, each player may put 1 face-down agent card from their hand to the bottom of the player board, in a horizontal position. This card can be put on top of an existing face-up agent card, or separately, depending on the current funding level. If an existing face-up agent card is covered, it loses any court abilities provided for this planning step and will be discarded at the end of this step.
 			- During this step, the agent cards hand of each player is not public knowledge to other players.
 			- Once all players have placed their agent cards and operation tokens, all cards are revealed and acting step begins.
 		- Acting step:
 			- In map order (determined by the security career branch), each player resolves the operation ability of any one of the remaining face-up agent cards in a designated sector on the map board. During resolution, the sector is considered active. Once resolved, the agent card is discarded to the appropriate auction discard deck, unless noted otherwise. 
-			- At the start of the turn, the player may choose to pass. The player must pass if they don't have any remaining face-up agent cards. When every player passes, the scoring phase begins.
-			- The keywords of the common operation abilities are further described below:
-				- Loyal: 
-					- This agent cannot be owned by any other player.
-					- When this agent would be discarded, put it back to the owner player hand.
-				- React: operation ability can be activated during any player turn, once activated the card is discarded, unless noted otherwise.
-				- Move: the active player moves any number of their manpower tokens from the active sector to an adjacent sector. The resulting manpower cannot exceed the funding level. 
-				- Attack: 
-					- The attacking player selects a player with pieces in the active sector.
-					- Each participating player counts the power of their manpower tokens (regulars provide 1 power, specialists provide 2 power when attacking and 0 power when defending, unless noted otherwise) in the active sector, then adds the power of any supporting manpower tokens.
-					- Then, in secret, each participating player must select one agent card from their hand, if able. The cards are revealed at the same time, combat bonuses are calculated, together with any combat effects.
-					- Whoever has more power wins. Ties are resolved by security president.
-					- The losing player must retreat their manpower to an adjacent sector, if able (for example, if the resulting manpower does not exceed the funding level). The retreated manpower is set as exhausted - their power is 0. Losing player also discards any operation tokens (and corresponding agent card) in the active sector.
-					- The winning player collects 2 influence. Winning player may choose to destroy buildings in the active sector, getting 1 influence for each destroyed building.
-					- If the active sector is marked as a bounty zone (by security president), the winning player collects 2 money, plus 1 money for each destroyed manpower, including their own.
-				- Support: manpower in this sector can be counted during attack in another sector. Any player can be supported. Supporting manpower is not exhausted.
-				- Patrol: surpresses support, construct and extract abilities in this or another sector, the activation of these abilities have no effect.
-				- Defend X: manpower in this sector gains additional X power when defending.
-				- Construct: the active player pays the price and places a building on an empty building slot in the active sector.
-					- Manufactory costs 1 influence.
-					- Office costs 3 money.
-					- Academy costs 5 money.
-				- Extract: the active player executes the ability of each building and hub in the active sector.
-					- Money hub: each player with manpower in the active sector collects 2 money.
-					- Influence hub: each player with manpower in the active sector collects 1 influence.
-					- Manufactory: if only one player owns manpower in the active sector, they collect 3 money; otherwise, each player with manpower in the active sector collects 1 money.
-					- Office: if only one player owns manpower in the active sector, they collect 2 influence.
-					- Academy: if only one player owns manpower in the active sector, they produce 1 manpower token (regular or specialist), if able. Limiting factors may include: exceeding funding level in the sector, running out of manpower tokens.
-				- Execute X: after an attack, the winning player may choose to destroy X manpower.
-				- Heal X: after an attack, the losing player may cancel X execute abilities targetting their manpower or ignore exhaustion for X manpower during retreat. When activated outside of combat, the player readies X of their exhausted manpower in the active sector.
+			- At the start of the turn, the player may choose to pass (represented by a player career token in the security branch set on its side). The player must pass if they don't have any remaining face-up agent cards. When every player passes, the scoring phase begins.
 - Scoring phase:
 	- In scoring order (determined by the executive career branch) each player selects 1 declared ambition and, if the requirements are fulfilled, gains the amount of points according to the ambition level.
-	- The winner is determined (TBD).
+	- The game stops when any player reaches 20 points during scoring. 
 	- Each player gains 1 money for each sector with a hub they have manpower in.
 	- Each player gains influence for each career position: 2 influence for each manager position and 1 influence otherwise.
-	- Each player gains 1 regular manpower and places it in any sector on the map board, if able. Then readies their exhausted manpower.
+	- Each player gains 1 regular manpower and places it in any sector on the map board without any buildings, if able. Then readies their exhausted manpower.
+
+CONTENT
+- TBD: cards, factions
