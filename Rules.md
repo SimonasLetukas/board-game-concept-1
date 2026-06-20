@@ -58,9 +58,10 @@ CONCEPTS
 				- Each participating player counts the power of their manpower tokens (regulars provide 1 power, specialists provide 2 power when attacking and 0 power when defending, unless noted otherwise) in the active sector, then adds the power of any supporting manpower tokens.
 				- Then, in secret, each participating player must select one agent card from their hand, if able. The cards are revealed at the same time, combat bonuses are calculated, together with any combat effects.
 				- Whoever has more power wins. Ties are resolved by security president.
+				- Each participating player discards the agent card used in this combat.
 				- The losing player must retreat their manpower to an adjacent sector, if able (for example, if the resulting manpower does not exceed the funding level). The retreated manpower is set as exhausted - their power is 0. Losing player also discards any operation tokens (and corresponding agent card) in the active sector.
 				- The winning player collects 2 influence. Winning player may choose to destroy buildings in the active sector, getting 1 influence for each destroyed building.
-				- If the active sector is marked as a bounty zone (by security president), the winning player collects 2 money, plus 1 money for each destroyed manpower, including their own.
+				- If the active sector has a zoning token, the winning player collects 2 money, plus 1 money for each destroyed manpower, including their own.
 			- Construct (resolve): The active player pays the price and places a building on an empty building slot in the active sector.
 				- Manufactory costs 1 influence.
 				- Office costs 3 money.
