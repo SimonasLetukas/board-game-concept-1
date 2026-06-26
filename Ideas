@@ -48,54 +48,46 @@ MECHANICS IDEAS
 	Ability to somehow convert money to influence???
 	Agent card abilities that revolve around having another agent in hand, or face-up, or discarded. Think of which faction fits best.
 	Specialist manpower could have different abilities per faction / card.
+	Ability: steal money / influence?
 
 FACTION IDEAS
-	Economic: high wealth coupled with high expense
-	Expansive: easy to scale, hard to stay
-	Disruptive: sabotage and retreat
-	Defensive: squeeze a lot of out little
-	Mysterious: flexible and unpredictable, hard to control
-	Manipulative: best friend and worst enemy
+	Mammon Conglomerate (Economic): high wealth coupled with high expense
+	Luciferians (Authoritarian): cult revolving around a single personality
+	Liquidators (Disruptive): sabotage and retreat
+	Stygian Union (Defensive): squeeze a lot of out little
+		Ability: +1 to maximum number of court cards.
+	CyberSect (Mysterious): flexible and unpredictable, hard to control
+	HR Syndicate (Manipulative): best friend and worst enemy
 
 AGENT CARD or ABILITY IDEAS
 	Map: 
 		Remove manpower from the active sector and put it on the card. At the end of map phase the manpower is destroyed and the card is discarded. React: when defending against an attack place the manpower from the card on the active sector, then discard this card.
 		Supports adjacent sector multiple times (without discarding).
 		Supports all sectors (not impacted by adjacency) but discards after use.
-		Gain 1 money for each manpower token in the active sector, counting all players.
-		Extract the active sector and all adjacent sectors.
+		Luciferians: Extract the active sector and all adjacent sectors. (alt: extract in all controlled and connected sectors)
 		Destroy a building in the active sector and place a manpower token.
 		Select an operation token in the active or adjacent sector. Pay to move it to an adjacent sector.
 		Move any number of manpower tokens in the active sector to any number of sectors with your manpower tokens.
-		Players may not move out of or into this sector.
-		Defensive: 3 attacks
-		Defensive: while this card is unresolved, other players cannot move into this sector. Resolve: extract
-		Defensive: if there are no players with manpower in this sector, gain extract 2x; otherwise construct
-		Move, take operation token to the target sector, place a new agent card
+		Mysterious: Move, take operation token to the target sector, place a new agent card
+		Manipulative: Force a player to attack another player
+		Disruptive: Place a manpower token on the active sector, ignoring the funding restriction.
 	Combat:
-		Players do not gain influence or money for the fight.
 		Combat strength of enemy agent is reduced to 0.
 		Ignore opponent agent abilities.
 		May force opponent to choose another agent card from their hand.
-		Pay (discard?) to select another agent card from the hand.
+		Economic: Pay (discard?) to select another agent card from the hand.
 		Switch 1 regular to 1 specialist or 1 specialist to 1 regular manpower.
-		Spend resources to gain combat strength.
-		If you are the attacker, your retreating manpower does not become exhausted if you lose.
+		Disruptive: If you are the attacker, your retreating manpower does not become exhausted if you lose.
 		You may destroy one of your own Specialists in this combat to gain +3 Combat Strength.
-		Supporting manpower is not counted for this combat.
 		If you lose the combat, the manpower does not retreat and does not become exhausted.
 		If you lose the combat, gain 3 money.
-		If you win the combat, the losing player must also pay 2 money to you, otherwise you get Execute 1.
+		Economic: If you win the combat, the losing player must also pay 2 money to you, otherwise you get Execute 1.
 	Passive: 
-		Money hubs cannot be moved in controlled spaces with a manufactory (another one with influence hub / office building).
 		Gain 1 money whenever promoted to director or employee.
-		Whenever you construct, gain 1 money.
 		Academies cost 2 less money.
-		Ignore paying taxes (logistics president still collects it).
 		Your Operation Tokens can activate sectors adjacent to where they are physically placed.
 		Gain +1 funding.
 		Gain +1 operation slot.
-		Defensive: pay 1 influence to the Defensive player, if you do (or you are the Defensive player), you may play 2 operations in any one sector.
 		Manipulative: pay 2 influence to force the manager to pick a player for a position
 	Any:
 		Get money / influence for each manager position.

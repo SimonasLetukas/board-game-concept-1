@@ -44,12 +44,12 @@ CONCEPTS
 				- This agent cannot be owned by any other player.
 				- When this agent would be discarded, put it back to the owner player hand.
 		- Combat ability and power: Each card has a combat power level which is used together with manpower to determine the winner of a combat. In addition, some cards may have combat abilities to be executed before, during or after the combat. The most common abilities are described as keywords, noted below:
-			- Execute X: After an attack, the winning player may choose to destroy X manpower.
+			- Execute X: After an attack, but before the retreat, the winning player may choose to destroy X manpower of the losing player in the active sector.
 			- Protect X: After an attack, the losing player may cancel X execute abilities targetting their manpower or ignore exhaustion for X manpower during retreat.
 		- Court ability: When an agent card is placed horizontally it then becomes a court card, which allows the use of court abilities, giving passive effects. The amount of court cards each player can have is limited by the funding level. The court cards persist throughout the rounds until discarded (replaced by a new court card or adjusted to the funding level).
 		- Operation ability: When an agent card is placed vertically it then becomes an operation card, which allows execution of operation abilities in the specific sectors on the map board. Some abilities could give a passive effect, be triggered by a condition, or be resolved during a players turn. The most common abilities are described as keywords, noted below:
 			- Support (passive): Manpower in this sector can be counted during attack in another sector. Any player can be supported. Supporting manpower is not exhausted.
-			- Patrol (passive): Surpresses support, construct and extract abilities in this or another sector, the activation of these abilities have no effect.
+			- Patrol (passive): May surpress support, construct and extract abilities in this or another sector, resulting in the activation of these abilities having no effect.
 			- Defend X (passive): Manpower in this sector gains additional X power when defending.
 			- React (trigger): Operation ability can be activated during any player turn, once activated the card is discarded, unless noted otherwise.
 			- Move (resolve): The active player moves any number of their manpower tokens from the active sector to an adjacent sector. The resulting manpower cannot exceed the funding level. 
@@ -67,13 +67,14 @@ CONCEPTS
 				- Office costs 3 money.
 				- Academy costs 5 money.
 			- Extract (resolve): The active player executes the ability of each building and hub in the active sector.
-				- Money hub: each player with manpower in the active sector collects 2 money.
-				- Influence hub: each player with manpower in the active sector collects 1 influence.
-				- Manufactory: if only one player owns manpower in the active sector, they collect 3 money; otherwise, each player with manpower in the active sector collects 1 money.
-				- Office: if only one player owns manpower in the active sector, they collect 2 influence.
-				- Academy: if only one player owns manpower in the active sector, they produce 1 manpower token (regular or specialist), if able. Limiting factors may include: exceeding funding level in the sector, running out of manpower tokens.
+				- Money hub: Each player with manpower in the active sector collects 2 money.
+				- Influence hub: Each player with manpower in the active sector collects 1 influence.
+				- Manufactory: The player who controls the active sector collects 3 money; otherwise, each player with manpower in the active sector collects 1 money.
+				- Office: The player who controls the active sector collects 2 influence.
+				- Academy: The player who controls the active sector produces 1 manpower token (regular or specialist), if able. Limiting factors may include: exceeding funding level in the sector, running out of manpower tokens.
 			- Heal X (resolve): The active player readies X of their exhausted manpower in the active sector.
-- TBD: sector control
+- Controlling sectors: 
+	- A sector is considered controlled by a player if they are the only ones with manpower on that sector. 
 
 STRUCTURE
 - Each round consists of 4 phases: career, auction, map and scoring. 
@@ -125,4 +126,4 @@ STRUCTURE
 	- Each player gains 1 regular manpower and places it in any sector on the map board without any buildings, if able. Then readies their exhausted manpower.
 
 CONTENT
-- TBD: cards, factions
+- https://docs.google.com/spreadsheets/d/1EW_OuRDMPRIrT2c4jk-HYR7KzQOYSFV4sxsPVG8tWK4
