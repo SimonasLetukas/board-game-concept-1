@@ -24,8 +24,9 @@ COMPONENTS
 SETUP
 - Players select their faction and color.
 - All players are sorted by their faction prestige. The player who has the faction with the highest prestige takes the interim executive president position. Then, starting with the player who has the faction with the lowest prestige and going upward, each player places their faction starting pieces (manpower and building tokens) on the sector with the lowest unclaimed number (example: lowest prestige faction always takes sector numbered "1").
+- Each player collects 5 money and 3 influence.
 - Each faction puts their faction ambition card to the ambition deck, together with the base ambition cards. The deck is then shuffled.
-- Each faction puts their special agent cards to the appropriate auction track deck, together with the base agent cards. Each deck is then shuffled.
+- Each faction puts their remaining special agent cards to the appropriate auction track deck, together with the base agent cards. Each deck is then shuffled.
 - Starting from the cheapest lot, each auction track is filled with agent cards from the appropriate deck.
 - The money and influence hubs are placed in their starting sectors. The funding level is set to the middle position.
 
@@ -43,25 +44,25 @@ CONCEPTS
 			- Loyal: 
 				- This agent cannot be owned by any other player.
 				- When this agent would be discarded, put it back to the owner player hand.
-		- Combat ability and power: Each card has a combat power level which is used together with manpower to determine the winner of a combat. In addition, some cards may have combat abilities to be executed before, during or after the combat. The most common abilities are described as keywords, noted below:
+		- Combat ability and strength: Each card has a combat strength level which is used together with manpower to determine the winner of a combat. In addition, some cards may have combat abilities to be executed before, during or after the combat. The most common abilities are described as keywords, noted below:
 			- Execute X: After an attack, but before the retreat, the winning player may choose to destroy X manpower of the losing player in the active sector.
 			- Protect X: After an attack, the losing player may cancel X execute abilities targetting their manpower or ignore exhaustion for X manpower during retreat.
 		- Court ability: When an agent card is placed horizontally it then becomes a court card, which allows the use of court abilities, giving passive effects. The amount of court cards each player can have is limited by the funding level. The court cards persist throughout the rounds until discarded (replaced by a new court card or adjusted to the funding level).
 		- Operation ability: When an agent card is placed vertically it then becomes an operation card, which allows execution of operation abilities in the specific sectors on the map board. Some abilities could give a passive effect, be triggered by a condition, or be resolved during a players turn. The most common abilities are described as keywords, noted below:
-			- Support (passive): Manpower in this sector can be counted during attack in another sector. Any player can be supported. Supporting manpower is not exhausted.
-			- Patrol (passive): May surpress support, construct and extract abilities in this or another sector, resulting in the activation of these abilities having no effect.
-			- Defend X (passive): Manpower in this sector gains additional X power when defending.
-			- React (trigger): Operation ability can be activated during any player turn, once activated the card is discarded, unless noted otherwise.
-			- Move (resolve): The active player moves any number of their manpower tokens from the active sector to an adjacent sector. The resulting manpower cannot exceed the funding level. 
+			- Support (passive): Manpower in this sector can be counted during combat in this or adjacent sector. Any player can be supported. Supporting manpower is not exhausted.
+			- Patrol (passive): May surpress support, construct and extract abilities in this or adjacent sector, resulting in the activation of these abilities having no effect.
+			- Defend X (passive): Manpower in this sector gains additional X combat strength when defending.
+			- React (trigger): Operation ability can be activated during any player turn, once activated the card is discarded, unless noted otherwise. TBD: make the wording clearer around resolve and discard, look into Furfur's wording too.
+			- Move (resolve): The active player moves any number of their non-exhausted manpower tokens from the active sector to an adjacent sector. The resulting manpower cannot exceed the funding level. 
 			- Attack (resolve): 
-				- The attacking player selects a player with pieces in the active sector.
-				- Each participating player counts the power of their manpower tokens (regulars provide 1 power, specialists provide 2 power when attacking and 0 power when defending, unless noted otherwise) in the active sector, then adds the power of any supporting manpower tokens.
-				- Then, in secret, each participating player must select one agent card from their hand, if able. The cards are revealed at the same time, combat bonuses are calculated, together with any combat effects.
-				- Whoever has more power wins. Ties are resolved by security president.
+				- The attacking player selects a player with pieces in the active sector to initiate combat.
+				- Each participating player counts the combat strength of their manpower tokens (regulars provide 1 combat strength, specialists provide 2 combat strength when attacking and 0 combat strength when defending, unless noted otherwise) in the active sector, then adds the combat strength of any supporting manpower tokens.
+				- Then, in secret, each participating player must select one agent card from their hand, if able. The cards are revealed at the same time, combat bonuses are calculated, together with any combat effects. Whenever relevant, the agent cards with lower combat strength execute their effects first; effect timing ties are decided by the security president.
+				- Whoever has more combat strength wins. Ties are resolved by security president.
 				- Each participating player discards the agent card used in this combat.
-				- The losing player must retreat their manpower to an adjacent sector, if able (for example, if the resulting manpower does not exceed the funding level). The retreated manpower is set as exhausted - their power is 0. Losing player also discards any operation tokens (and corresponding agent card) in the active sector.
+				- The losing player must retreat their manpower to an adjacent sector, if able (for example, if the resulting manpower does not exceed the funding level); otherwise the manpower is destroyed. The retreated manpower is set as exhausted - their combat strength is 0. Losing player also discards any operation tokens (and corresponding agent card) in the active sector.
 				- The winning player collects 2 influence. Winning player may choose to destroy buildings in the active sector, getting 1 influence for each destroyed building.
-				- If the active sector has a zoning token, the winning player collects 2 money, plus 1 money for each destroyed manpower, including their own.
+				- If the active sector has a zoning token, the winning player collects 2 money, plus 1 money for each destroyed manpower, including their own, and 1 money for each destroyed building.
 			- Construct (resolve): The active player pays the price and places a building on an empty building slot in the active sector.
 				- Manufactory costs 1 influence.
 				- Office costs 3 money.
@@ -92,11 +93,11 @@ STRUCTURE
 				- Each executive director in turn draws 2 cards from the bottom of the ambitions card deck. Then, in turn, they may put 1 card on top of the deck. 
 				- Each executive employee in turn may move the position of 1 declared ambition card one space to the left or right. This could result in declared ambitions switching places. 
 			- Working abilities of logistics branch:
-				- Logistics president may set/remove the tax token to/from one of the auction tracks; then they may set/remove discount token to/from one of the remaining auction tracks. All agent cards in the taxed track cost 1 more resource (either influence or money) and whenever the card is bought, this resource is collected by the logistics president player. All agent cards in the discounted track cost 1 less resource (either influence or money).
+				- Logistics president may set/remove the tax token to/from one of the auction tracks; then they may set/remove discount token to/from one of the remaining auction tracks. All agent cards in the taxed track cost 1 more money and whenever the card is bought, this money is collected by the logistics president player. All agent cards in the discounted track cost 1 less money.
 				- Each logistics director in turn searches 1 agent card from the discard deck in one of the auction tracks, then puts this card either to the top or the bottom of the auctions card deck for that track.
 				- Each logistics employee in turn may discard one face-up agent card from the auction, then that auction track is refreshed.
 			- Working abilities of security branch:
-				- Security president demands each player to adjust their manpower and court according to the current funding level; final distribution is decided by the security president. The security president then sets the funding value by placing the funding token on the funding track on the map board. Security president also resolves ties in battles.
+				- Security president demands each player to adjust their manpower and court according to the current funding level; final distribution is decided by the security president. The security president then sets the funding value by placing the funding token on the funding track on the map board. Security president also resolves strength and timing ties in combat.
 				- Each security director in turn places a zoning token in a sector on the map, giving additional money for players fighting (and winning) in these sectors.
 				- Each security employee in turn may move 1 influence or money hub to an empty space in an adjacent sector on the map. A single hub cannot be moved twice during the career phase.
 	- Each branch determines the order of play for different aspects in the game, starting with the unemployed player and going back to the president in the reverse hiring order:
@@ -105,8 +106,9 @@ STRUCTURE
 		- Security branch determines map order.
 	- Manager positions (presidents and directors) receive bonus influence at the end of the round.
 - Auction phase:
-	- In auction order (determined by the logistics career branch) each player who has not yet passed may buy 1 card from the auction, or pass (represented by a player career token in the logistics branch set on its side). The price is determined by the bidding level (more expensive closer to the deck), and can be modified by the card itself and any tax or discount tokens next to the auction track. When the card is bought, it is added to the player's hand, and that auction track is refreshed. 
-	- Refreshing the auction track is done in two steps: all cards are shifted away from the deck, to the cheapest possible empty space. Then starting from the cheapest possible empty space, each space is filled with a new agent card from the top of the deck. 
+	- In auction order (determined by the logistics career branch) each player who has not yet passed may buy 1 card from the auction, or pass (represented by a player career token in the logistics branch set on its side). When the card is bought, it is added to the player's hand, and that auction track is refreshed. 
+	- The money price of the auction card is determined by the bidding level (more expensive closer to the deck), and can be modified by the card itself and any tax or discount tokens next to the auction track. If the card is faction-specific and the player buying the card has a different faction, then the card also costs influence which is paid to the player playing card's faction: base amount of 1 influence, plus any additional influence noted on the card itself. Finally, the card itself could have additional (or conditional) costs, which uses the following phrasing: "as an additional auction cost".
+	- Refreshing the auction track is done in two steps: all cards are shifted away from the deck, to the cheapest possible empty space. Then starting from the cheapest possible empty space, each space is filled with a new agent card from the top of the deck. When it is no longer possible to draw from the deck because it's empty, the discard deck is shuffled and placed face-down as the new auction deck.
 	- When every player passes, the map phase begins.
 - Map phase:
 	- Map phase consists of 2 steps: planning and acting.
@@ -123,7 +125,7 @@ STRUCTURE
 	- The game stops when any player reaches 20 points during scoring. 
 	- Each player gains 1 money for each sector with a hub they have manpower in.
 	- Each player gains influence for each career position: 2 influence for each manager position and 1 influence otherwise.
-	- Each player gains 1 regular manpower and places it in any sector on the map board without any buildings, if able. Then readies their exhausted manpower.
+	- Each player gains 1 regular manpower and places it in any sector on the map board without any buildings, if able. Then readies 3 of their exhausted manpower.
 
 CONTENT
 - https://docs.google.com/spreadsheets/d/1EW_OuRDMPRIrT2c4jk-HYR7KzQOYSFV4sxsPVG8tWK4

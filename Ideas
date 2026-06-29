@@ -40,14 +40,6 @@ OFFICE TRACKS
 	C: Related with map control
 
 MECHANICS IDEAS
-	Auction (agent) card should have up to 3 abilities (and be represented as an "agent"): 1 passive, 1 map, 1 battle (+ combat strength)
-		Some agent cards may not have a battle or passive ability, but all should have a map ability and a combat strength.
-		Stronger abilities should ideally be offset by weaker combat strength, or have higher cost (money, influence, discard, even sacrificing another agent card).
-		Map abilities could be a simple keyword (or a combination of keywords): move, attack, construct, move + attack, etc.
-		How and when should the passive agent ability be activated?
-	Ability to somehow convert money to influence???
-	Agent card abilities that revolve around having another agent in hand, or face-up, or discarded. Think of which faction fits best.
-	Specialist manpower could have different abilities per faction / card.
 	Ability: steal money / influence?
 
 FACTION IDEAS
@@ -55,62 +47,14 @@ FACTION IDEAS
 	Luciferians (Authoritarian): cult revolving around a single personality
 	Liquidators (Disruptive): sabotage and retreat
 	Stygian Union (Defensive): squeeze a lot of out little
-		Ability: +1 to maximum number of court cards.
 	CyberSect (Mysterious): flexible and unpredictable, hard to control
 	HR Syndicate (Manipulative): best friend and worst enemy
 
 AGENT CARD or ABILITY IDEAS
 	Map: 
-		Remove manpower from the active sector and put it on the card. At the end of map phase the manpower is destroyed and the card is discarded. React: when defending against an attack place the manpower from the card on the active sector, then discard this card.
-		Supports adjacent sector multiple times (without discarding).
-		Supports all sectors (not impacted by adjacency) but discards after use.
-		Luciferians: Extract the active sector and all adjacent sectors. (alt: extract in all controlled and connected sectors)
-		Destroy a building in the active sector and place a manpower token.
-		Select an operation token in the active or adjacent sector. Pay to move it to an adjacent sector.
-		Move any number of manpower tokens in the active sector to any number of sectors with your manpower tokens.
-		Mysterious: Move, take operation token to the target sector, place a new agent card
-		Manipulative: Force a player to attack another player
-		Disruptive: Place a manpower token on the active sector, ignoring the funding restriction.
 	Combat:
-		Combat strength of enemy agent is reduced to 0.
-		Ignore opponent agent abilities.
-		May force opponent to choose another agent card from their hand.
-		Economic: Pay (discard?) to select another agent card from the hand.
-		Switch 1 regular to 1 specialist or 1 specialist to 1 regular manpower.
-		Disruptive: If you are the attacker, your retreating manpower does not become exhausted if you lose.
-		You may destroy one of your own Specialists in this combat to gain +3 Combat Strength.
-		If you lose the combat, the manpower does not retreat and does not become exhausted.
-		If you lose the combat, gain 3 money.
-		Economic: If you win the combat, the losing player must also pay 2 money to you, otherwise you get Execute 1.
-	Passive: 
-		Gain 1 money whenever promoted to director or employee.
-		Academies cost 2 less money.
-		Your Operation Tokens can activate sectors adjacent to where they are physically placed.
-		Gain +1 funding.
-		Gain +1 operation slot.
-		Manipulative: pay 2 influence to force the manager to pick a player for a position
+	Court: 
 	Any:
-		Get money / influence for each manager position.
-		Pay influence to put the agent back to the owner player hand to avoid discarding.
-		Convert money to influence at 3:1 rate. 
-		Manipulative: If you win the combat, switch any two career positions of the selected branch. Select one of the switched players to work in the new position.
-	
-AMBITION CARD IDEAS
-	Pay X money
-	Pay X influence
-	Pay X money AND influence
-	Control X sectors
-		Control a chain of sectors
-	Control X sectors without buildings and hubs
-	Control X building (type?)
-	Control a sector with all three building types
-	Control X hubs
-	Control X connections
-	Have X specialists / regulars across any number of sectors
-	Have X manpower in 1 sector
-	Transfer X units/money/influence to another player with lowest score
-	Win a battle against player with the highest score
-	Manipulative: Have at least 1 unemployed positions.
 
 DESIGN CHALLENGES
 	Kingmaking / last round when the winner is clear
