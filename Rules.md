@@ -52,7 +52,7 @@ CONCEPTS
 			- Support (passive): Manpower in this sector can be counted during combat in this or adjacent sector. Any player can be supported. Supporting manpower is not exhausted.
 			- Patrol (passive): May surpress support, construct and extract abilities in this or adjacent sector, resulting in the activation of these abilities having no effect.
 			- Defend X (passive): Manpower in this sector gains additional X combat strength when defending.
-			- React (trigger): Operation ability can be activated during any player turn, once activated the card is discarded, unless noted otherwise. TBD: make the wording clearer around resolve and discard, look into Furfur's wording too.
+			- React (trigger): The ability can be activated during any player's turn if the condition is met.
 			- Move (resolve): The active player moves any number of their non-exhausted manpower tokens from the active sector to an adjacent sector. The resulting manpower cannot exceed the funding level. 
 			- Attack (resolve): 
 				- The attacking player selects a player with pieces in the active sector to initiate combat.
