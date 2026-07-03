@@ -89,7 +89,7 @@ STRUCTURE
 		- Working step:
 			- For each career branch, starting with the president and going in hiring order, each player executes actions described in their position. Generally, the actions in higher positions are more strategically impactful, while lower positions (except unemployed) are more tactically impactful.
 			- Working abilities of executive branch:
-				- Executive president draws 3 ambition cards from the deck and declares a new ambition by putting one card face-up on one of the spaces of the declared ambitions track. If there is already a declared ambition on that space, it moves to the bottom of the ambitions card deck.
+				- Executive president draws 3 ambition cards from the deck and declares a new ambition by putting one card face-up on one of the spaces of the declared ambitions track; the remaining 2 cards go to the bottom of the deck. If there is already a declared ambition on that space, it moves to the bottom of the ambitions card deck.
 				- Each executive director in turn draws 2 cards from the bottom of the ambitions card deck. Then, in turn, they may put 1 card on top of the deck. 
 				- Each executive employee in turn may move the position of 1 declared ambition card one space to the left or right. This could result in declared ambitions switching places. 
 			- Working abilities of logistics branch:
