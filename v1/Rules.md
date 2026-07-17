@@ -1,5 +1,5 @@
 THEME
-- TBD: Corporate hell, literally
+- Corporate hell, literally
 
 OBJECTIVE
 - First player who reaches 20 points wins, at which point the game stops. 

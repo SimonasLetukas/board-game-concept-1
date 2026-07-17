@@ -13,20 +13,42 @@ FEEDBACK FROM V1
 		Economy grows exponentially, should instead try to invoke tug of war (+ push) feeling
 		Scoring needs rework: too predictable but also hard to control, the stakes are not increasing each round
 
+THEME
+	The corp and hell motifs should be pictured in a satirical way, finding as much humor as possible in the what-if of an office environment turned into a hell world.
+	The root of the theme should be hell first, infused with corporate life elements. 
+	Hell
+		Strict hierarchies of devils fighting with each other to try and get the upper hand and get to the better position -- scheming, plots, coups, assassinations are all part of the plan.
+		The scheming is meant to find gaps in the otherwise strict code of laws that all devils must follow -- the best devils are the ones who are able to bend the rules the most.
+		Heavily influenced by Nine Hells from D&D.
+	Corp
+		Greed and power-driven top-down decision making based on incomplete knowledge on the operational level, which makes everyone below frustrated at how incompetent the overall leadership is, which could be improved if more bottom-up communication would be introduced, but it never is.
+		No one is motivated enough to take responsibility for anything, so instead any meaningful work to bring value to the company is treated as a hot potato, where most value is brought accidentaly, through power plays that give recognition.
+
 GAMEPLAY
 	General
-		4 players, distinct factions
-		5 influence each, closed economy
-		TBD mechanics that help and give a reason to be an insurgent player (without any warlords and no possibility to become devil): drawing secret objectives; scheming, plots, coups, assassinations?
+		4 players, distinct factions (TBD could be renamed to fanatics? or something similar to represent that these are very loose collection of devils that are either working for a high ranking devil, like mammon, asmodeus etc, or towards an ideal, i.e. sin)
+		5 starting resources (souls) each, closed economy, no more money or influence as a resource from v1
+		Promotion path: souls -> imps -> pit lords -> archdevil
+		TBD spending souls -- perhaps would be best to distribute the souls back onto the sectors, giving some control to the spenders on where to put the souls, but ultimately cycling through all sectors; maybe there is a better distribution method, but the resource collection mechanism where players are fighting for the limited amount of resources that are on the map board is desirable (similar to how it's done in Dune with the spice blows)
+		TBD mechanics that help and give a reason to be an insurgent player (without any pit lords and no possibility to become archdevil): drawing secret objectives; scheming, plots, coups, assassinations? what happens if a player no longer controls any sectors and no longer has any souls to buy cards? simple answer could be that during scoring each player that does not control any sector gets to do one of the following: take X souls from one of the coffers, 
+		TBD the ambitions (TBD need a better name to better fit the "top-down" decision made) should impose a limitation (rule change) either temporarily (until the player scores the ambition) or more permanently (until the objective remains on board)
 	Map
-		5 sectors (layers of hell?), each player can play an operation card next to the sector
-		Each sector has a warlord, with higher level powers (each sector could have a different flavor of power), becoming a warlord in a sector means dominating the sector 
-		Assigning a warlord also uses an agent card, giving passive bonuses (similar to court powers)
-		Role of buildings & hubs & zones?
+		5 sectors (layers of hell?), each player can play an operation card next to the sector, still simultaneously putting them face-down and revealing at the same time
+		Each sector has a pit lord, with higher level powers (each sector could have a different flavor of power), becoming a pit lord in a sector would be done through dominating the sector. Domination could be decided by the agents that are participating in the sector, where the highest number still standing at the end of the map phase wins (plus any "stars"). Map order could be determined by summing these agent powers across all cards and starting with the player with the lowest number. 
+		The operating agents would have a number of "actions", usually one per agent. Once action is spent, the agent card would still stay until end of phase to be able to determine the pit lord and/or continue to give passive benefits in the sector. 
+		Assigning a pit lord also uses an agent card, giving passive bonuses (similar to court powers from previous version)
+		Imps (manpower in v1) are used when exploiting a sector (distributing the souls in the sector across all imps of all players), also for combat and getting control of the sector. Controlling a sector makes it easier to dominate it (TBD how? giving some sort of bonus to agent power?)
+		Exploiting a sector to distribute souls also includes the current pit lord, as if he was one of the imps
+		One of the sectors is focused on imp recruitment as part of exploit. After recruitment, the imps can be placed in any sector. Recruitment can be done in any other sector but it may have additional red tape (may cost more souls, have recruitment limits)
+		TBD role of buildings & hubs & zones? could be renamed to "sigils" which may also be moved but would draw priority when distributing expended souls
 	Career
-		5 warlords spend influence to become the devil, whoever wins gives influence to the warlord players (could be itself), one of the warlords becomes the devil (TBD how is the position filled again?)
-		The devil increases in power but also in cost for each consecutive re-election
-		The devil should be the one in control of scoring
+		Each sector has a budget of souls (coffers) that is collected in various ways: buying agent cards, becoming archdevil (??? should probably find another source of budget income), promoting souls into imps (manpower). This budget is then spent by the pit lords during career phase giving various effects and putting the souls back to circulation (on the map?)
+		5 pit lords spend influence to become the archdevil, whoever wins gives influence to the pit lord players (could be itself) OR puts it into the budget (TBD), one of the pit lords leaves the sector office and becomes the archdevil (TBD how is the position filled again?)
+		The archdevil increases in power but also in cost for each consecutive re-election; TBD how is this modelled mechanically? Could give increasing number of stars in exchange of forcing the archdevil player to pay escalating amount of souls for each consecutive term
+		The archdevil should be the one in control of scoring (by spending budget)
 	Auction
-		Simultaneous bidding on cards?
-		Economy: resource cost, limited amount of resources?
+		The agent cards should still be multifunctional -- passive pit lord abilities (previously court), passive operation abilities, active operation abilities, combat abilities. All agent cards should be expendable, no more loyal agents
+		TBD simultaneous bidding on cards? May be harder to control, probably should keep the same structure as before but instead of money/influence cost, the cards instead always cost souls; some cards could have additional cost; buying another faction card costs additional souls
+	Scoring
+		Ambitions have 5 slots where the cards can be placed. After scoring, the ambitions are moved one step to the right, which may mean that it's discarded. Only the first 3 slots are available for placing a new ambition. Ambitions can be placed on top of another ambition. The amount of score points increases with each slot, where the last slot on the right gives the most score (it's also a slot where new ambitions cannot be placed, and where it would be discarded next time it moves to the right).
+		Scoring an ambition could give a new type of resource: stars (name TBD). It would be possible to expend stars when determining who dominates a sector.
