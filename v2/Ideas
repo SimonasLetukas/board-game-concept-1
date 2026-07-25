@@ -53,7 +53,23 @@ GAMEPLAY
 		Ambitions have 5 slots where the cards can be placed. After scoring, the ambitions are moved one step to the right, which may mean that it's discarded. Only the first 3 slots are available for placing a new ambition. Ambitions can be placed on top of another ambition. The amount of score points increases with each slot, where the last slot on the right gives the most score (it's also a slot where new ambitions cannot be placed, and where it would be discarded next time it moves to the right).
 		Scoring an ambition could give a new type of resource: stars (name TBD). It would be possible to expend stars when determining who dominates a sector.
 
-PUBLIC OBJECTIVES: Grand Projects
+RULE CLARIFICATIONS (TODO)
+	
+
+AGENTS
+	Sector abilities:
+		Patrol. Target adjacent sectors.
+		Support. Gain energy if a supported combat is won.
+	Combat abilities:
+	Palace ambitions:
+
+FACTIONS
+	Insurgent
+		While insurgent, imps provide +1 to combat strength
+	?
+		After combat, if the agent used in the combat has higher power than the acting agent in the sector, discard the acting agent and place the combat agent with full energy instead. 
+
+PUBLIC OBJECTIVES (Grand Projects)
 	Rule 3 palaces
 	Spend 5 souls from reserves into Pandemonium coffers
 	Collect 10 souls in reserves
@@ -62,7 +78,7 @@ PUBLIC OBJECTIVES: Grand Projects
 	Have 6 of your imps in 1 sector
 	Destroy 3 of your imps
 
-SECRET OBJECTIVES: Schemes
+SECRET OBJECTIVES (Schemes)
 	Win a combat against the player with the most points
 	Win a combat in a sector with 2 sigils
 	Spend 15 souls from coffers of any 1 palace into limbo during machination step in palace phase

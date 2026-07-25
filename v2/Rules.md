@@ -14,31 +14,59 @@ Points are scored primarily by contributing to the publicly declared grand proje
 
 ## Components
 - **Boards:** map board with 5 sectors; palace board with pit lord and archdevil palaces, contracting order, operating order, combat order, scoring order, grand projects and limbo; contracts board with agent cards on economy, logistics and warfare tracks. 
-- **Player pieces:** 8 imps (2-sided -- fresh and exhausted); 10 control tokens.
-- **Faction pieces:** 1 faction card; 2 economy, 2 logistics and 2 warfare agent cards; 1 grand design card.
-- **Cards:** 10 economy, 10 logistics and 10 warfare agent cards; 10 grand design cards; 10 scheme cards (TBD).
-- **Tokens:** 35 souls; 1 sigil of greed; 1 sigil of wrath; 12 favors.
+- **Player pieces (4 players):** 8 imps (2-sided -- fresh and exhausted); 10 control tokens.
+- **Faction pieces (TBD factions):** 1 faction card; 2 economy, 2 logistics and 2 warfare agent cards; 1 grand project card.
+- **Cards:** 10 economy, 10 logistics and 10 warfare agent cards; 10 grand project cards; 10 scheme cards (TBD).
+- **Tokens:** 35 souls; 1 sigil of greed; 1 sigil of wrath; 20 favors, 50 energy cubes.
 
 ## Setup
-1. Players select their faction and color, then collect their player and faction pieces.
+1. Place the map, palace and contracts boards.
+1. Place all favors and energy cubes into the supply.
+1. Players select their faction and color, then collect their player and faction pieces into the supply. 
 1. Each player puts their faction agents into the appropriate contract decks. The decks are then shuffled. No cards are drawn yet.
 1. Each player puts their faction grand project card into the grand project deck. The deck is then shuffled. No cards are drawn yet.
 1. Each player collects 5 souls into their reserves.
 1. On the map board, place 3 souls on each of the 5 sectors. Then place a sigil of greed on Minauros sector and a sigil of wrath on Gehenna sector. 
 1. Starting with the player with the highest prestige (as noted on the faction card), each player in turn chooses to place 1 imp on any sector. Then, starting with the player with the lowest prestige and going counterclockwise, each player places 2 imps on any single sector.
 1. Scoring order is set up in prestige order; contracting and combat orders are set up in reverse prestige order.
-1. The player with the highest prestige places their control token on the archdevil slot (without placing an agent). Then, they draw 1 grand project card and declare it. 
+1. The player with the highest prestige draws 1 grand project card and declares it on any position. 
 
 ## Concepts
 
-### Souls
+### Grand Projects
+Scoring grand projects is the main way to get points. Before a grand project could be scored, it must be declared by the archdevil.
 
-#### Closed Economy
+#### Declaring a Grand Project
+When a new grand project is declared by the archdevil, it may be placed on any of the first 3 positions. If a grand project is already present in the chosen position, it is discarded.
+
+Discarded grand project cards are put to the bottom of the grand project deck.
+
+#### Scoring a Grand Project
+Each grand project position has a scoring value, increasing from left to right: 3, 4, 5, 6, 7. This value shows how many points the player receives when they score the grand project. In time, the grand project cards shift to the right, making them more lucrative. After a grand project card in the rightmost position is shifted, it is discarded. 
+
+Each grand project card has a number of contribution slots where players put their control tokens when scoring. When all of the slots are filled, the grand project is discarded.
+
+There is no limit to how many slots may be filled by the same player.
+
+### Resources
+
+#### Souls
+Souls is the main currency in the game.
+
 Generally, the economy of souls follows a circular path:
 - **From reserves to coffers.** Players spend the souls from their reserves to promote imps, contract agents and lobby pit lords to become the archdevil. This is then collected in the various sector palaces.
-- **From coffers to limbo.** The pit lords spend the souls from their coffers to carry out their machinations, the souls are then transferred to limbo.
+- **From coffers to limbo.** The players owning any pit lords spend the souls from their coffers to carry out their machinations, the souls are then transferred to limbo.
 - **From limbo to sediment.** The souls collected in limbo are regularly distributed into the sediment on each sector.
 - **From sediment to reserves.** The souls in sediment are exploited and collected by imps into the player reserves.
+
+#### Favors
+Favors is the secondary currency in the game. 
+
+Favors are taken from the supply when scoring and for successfully ruling as the archdevil.
+
+Favors are spent back to the supply to influence the results of combat and have a better chance of becoming a pit lord. Favors are also spent by the archdevil when declaring a new grand project.
+
+There is no limit to the favor tokens, use auxiliary pieces if necessary.
 
 #### Distribution
 When souls are transitioning from limbo to sediment and from sediment to reserves they follow the distribution rules.
@@ -48,9 +76,13 @@ First, a list of participating nodes (e.g. sectors, imps, sigils) are counted an
 - An **incomplete distribution cycle** tries to divide all participating souls, where the last cycle starts from the nodes with the most priority and any priority ties are decided by the distributing player. This way, the last cycle may not be completed and some nodes (with less priority) are left without any souls.
 
 ### Agents
-Each player has a hand of agent cards. These cards are public information for all players, unless noted otherwise. 
+Each player has a hand of agent cards. These cards are **public information** for all players, unless noted otherwise. 
 
 Agent cards are bought with souls during contracting phase. In most cases, once used, the agent card is discarded to the bottom of the appropriate contract deck. 
+
+Agent cards are used in combat and to act in map operations. From acting on the map, the agents have the opportunity to become pit lords and later archdevils. 
+
+A face-up agent card played on the map or palace boards always has an owner player. 
 
 Each agent card is multifunctional and can have a combination of **features**, explained below:
 - **Card type.** A card type is defined by its function (economy, logistics, warfare), origin (faction specific or generic) and any combination of keywords. Various game rules may reference the card type.
@@ -69,7 +101,7 @@ The map board is divided into 5 sectors: Gehenna, Minauros, Erebus, Avernus and 
 - **Sediment**, where *souls* end up from limbo, then exploited and collected by *imps*; *sigils* are also placed in the sediment.
 - **Agent slots** for each player to place their *agent* to act in a sector.
 
-#### Ruling a Sector
+#### Ruling a Palace
 The palace is considered ruled by the player whose agent is a pit lord or the archdevil.
 
 Players put their control tokens on the pit lord and archdevil agent cards to indicate ownership and tenure.
@@ -80,40 +112,52 @@ Both the pit lord and the archdevil get additional palace abilities while they r
 - **Ambitions:** abilities specific to the agent ruling as a pit lord or the archdevil.
 - **Machinations:** abilities specific to the palace ruled. Most machinations must be carried out during palace phase, however some provide powers outside of palace phase.
 
+#### Insurgency
+A player is considered insurgent if they do not rule any palace as a pit lord or the archdevil.
+
 #### Sector Abilities
 An agent card added to the agent slot allows the player to influence the sector operations through sector abilities: 
-- Sector **actions**: effects that the active player chooses to execute during their turn.
-- Sector **passives**: effects that may be executed during any player's turn. 
+- Sector **actions (A)**: effects that the active player chooses to execute during their turn.
+- Sector **passives (P)**: effects that may be executed during any player's turn. 
 
-The sector abilities generally cost energy to execute -- this is noted as a number in parantheses before the sector ability description. Energy is tracked with control tokens and the agent is discarded when the energy reaches 0. 
+The sector abilities generally cost energy to execute -- this is noted as a number before the sector ability description. Energy is tracked with energy cubes and the agent is discarded when the energy reaches 0. 
 
 The most common sector abilities are described as keywords, noted below.
 
 Sector actions:
 - **Move X:** take X number of your imps in the active sector and move them to another sector. 
 - **Attack:** select a defending player with imps or agent in the active sector to initiate combat (described in more detail later in the combat section).
-- **Extract X:** distribute incomplete cycles of X souls from the active sector's sediment to nodes in priority -- pit lord, agents, imps.
+- **Extract X:** distribute incomplete cycles of X souls from the active sector's sediment to reserves of players owning the nodes in priority -- pit lord, agents, imps.
 - **Promote:** place fresh imps to the active sector (or any sector, if the active sector is Gehenna); pay 1 soul (+1 if the active sector is not Gehenna) to Gehenna's coffers for each imp placed.
 - **Heal X:** switch X number of imps in the active sector to their fresh side. 
 
 Sector passives:
-- **Defend X:** add X combat strength when defending in this sector.
-- **Support:** your imps in this sector may add their combat strength to this or adjacent sector; any player can be supported; supporting imps may become exhausted during the combat.
+- **Defend X:** at the start of a combat add X combat strength if defending in this sector.
+- **Support:** activate at the start of a combat; your imps in this sector may add their combat strength to this or adjacent sector; any player can be supported; supporting imps may become exhausted during the combat.
 - **Patrol:** target extract or support abilities in this sector just after activation but before resolution -- these abilities have no effect this turn and the cost is not refunded.
+
+An example of how the sector abilities may be described: 
+> 2P: defend 4. 
+
+Which reads as: pay 2 energy to execute "defend 4" ability as a passive. In this example, the passive sector ability would be activated during a combat.
 
 #### Combat
 At the start of the combat, the attacking and defending players **in secret** must select to participate 1 agent card from their hand, if able. Otherwise, the acting agent in the sector participates, if present. The cards are revealed at the same time.
 
+When the agent cards are revealed, in scoring order the players may add any number of favors once. 
+
 Then each side calculates their combat strength (including support):
 - Each fresh imp provides 1 combat strength; each exhausted imp provides 0 combat strength. 
 - The participating agents add their power to the combat strength.
-- Each favor provides 1 combat strength; additional favors may be added during calculation.
+- Each favor provides 1 combat strength.
 
 The side with more combat strength wins. Ties are resolved in the combat order.
 
 The losing side destroys exhausted imps, then exhausts fresh imps. The losing player may move their exhausted imps from the active sector to an adjacent sector. The losing player then loses 1 energy on their acting agent in the active sector.
 
 If the sector had a **sigil of wrath**, the losing player must give to the winning player a number of souls equal to the difference between the final combat strengths.
+
+The destroyed imps are returned to the player's supply.
 
 Finally, the participating agents are discarded.
 
@@ -122,21 +166,6 @@ Throughout the combat, the participating agents may also activate their **combat
 The most common combat abilities are described as keywords, noted below:
 - **Execute X:** after the combat winner is determined, the winning player may choose to destroy X imps of the losing side in the active sector.
 - **Protect X**: after the combat winner is determined, the losing player may cancel X execute abilities or ignore exhaustion for X imps.
-
-### Insurgency
-
-A player is considered insurgent if they do not rule any palace as a pit lord or the archdevil.
-
-### Grand Projects
-
-#### Declaring a Grand Project
-
-When a new grand project is declared, it may be placed on any of the first 3 slots. If a grand project is already placed in the chosen slot, it is discarded.
-
-Discarded grand project cards are put to the bottom of the grand project deck.
-
-#### Scoring a Grand Project
-Each grand project has a number of available slots where players put their control tokens when scoring. When all of the slots are filled, the grand project is discarded.
 
 ## Structure
 The game is played in **rounds**. Each round has 4 **phases** that are played one after another: contracting, operations, palace and scoring.
@@ -176,9 +205,9 @@ The operation phase consists of **2 steps**: planning and acting.
 #### 1. Planning Step
 Each player simultaneously **places** face-down agent cards from their hand on up to 5 sectors.
 
-When everyone is ready, all face-down agents are **flipped** face-up. Each player places a number of control tokens on each face-up agent card equal to its energy.
+When everyone is ready, all face-down agents are **flipped** face-up. Each player places a number of energy cubes on each face-up agent card equal to its energy.
 
-Then, **operating order** is updated. It is determined by counting the power of all player's agents and sorting the combined power in a descending order. Any ties are resolved in the combat order. 
+Then, **operating order** is updated. It is determined by counting the power of all player's agents and sorting the combined power in an ascending order. Any ties are resolved in the combat order. 
 
 Finally, in operating order each player may place any number of **favors** on any number of face-up agents.
 
@@ -188,7 +217,7 @@ In **operating order** each participating player either:
 - **Passes** by flipping their control token on the operating order track to indicate that they are no longer participating.
 
 Sector ability execution follows these steps:
-1. **Pay** the energy cost: remove the required number of control tokens from the face-up agent card.
+1. **Pay** the energy cost: remove the required number of energy tokens from the face-up agent card.
 1. **Execute** the sector abilities associated with the cost. During execution, the sector with this agent card is considered active.
 1. **Check** energy count of all face-up agent cards. If any of the face-up agent cards no longer has any energy, it is discarded.
 
@@ -241,7 +270,7 @@ The machinations step **ends** when every player got the opportunity to carry ou
 | Minauros | Economy contracting track | <ul><li>During palace phase, spend 3 souls from coffers to move the sigil of greed to any sector.</li><li>During palace phase, spend 2 souls from coffers to discard 1 agent from economy contracting track.</li><li>During palace phase, spend 4 souls from coffers to take 1 soul from limbo to reserves (of any player).</li></ul> |
 | Erebus | Logistics contracting track | <ul><li>During palace phase, spend 3 souls from coffers to set the contracting order.</li><li>During palace phase, spend 2 souls from coffers to discard 1 agent from logistics contracting track.</li><li>During palace phase, spend 3 souls from coffers to move 1 imp (of any player) to another sector.</li></ul> |
 | Avernus | Warfare contracting track | <ul><li>During palace phase, spend 3 souls from coffers to set the combat order.</li><li>During palace phase, spend 2 souls from coffers to move the sigil of wrath.</li><li>During palace phase, spend 3 souls from coffers to discard 1 agent from warfare contracting track.</li><li>Each time an imp is destroyed, take 1 soul from coffers to reserves (if able).</li></ul> |
-| Pandemonium | Archdevil's domination and pit lords' lobbying | <ul><li>During palace phase, spend 3 souls from coffers to set the scoring order.</li><li>During palace phase, spend 4 souls from coffers to view the top grand design card, then place it on top or bottom of the deck.</li></ul> |
+| Pandemonium | Archdevil's domination and pit lords' lobbying | <ul><li>During palace phase, spend 3 souls from coffers to set the scoring order.</li><li>During palace phase, spend 4 souls from coffers to view the top grand project card, then place it on top or bottom of the deck.</li></ul> |
 
 ### Scoring Phase
 > During this phase players score the grand projects to earn points and prepare for the next round.
@@ -254,7 +283,7 @@ In scoring order, every player tries **scoring** 1 declared grand project if the
 If at any point any player reaches 20 points, the game ends and that player is the **winner**.
 
 Then **resolve** the end of round steps and start the next round:
-1. Discard the rightmost grand project card. **Move** grand project cards one space to the right.
+1. Discard the rightmost grand project card. **Move** grand project cards one position to the right.
 1. Each **insurgent** player chooses to either place 1 imp on any sector or take 2 souls from limbo.
 1. **Distribute** complete cycles of souls from limbo to nodes in priority -- sigil of greed, sediment. 
 
