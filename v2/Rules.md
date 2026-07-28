@@ -57,7 +57,9 @@ Generally, the economy of souls follows a circular path:
 - **From reserves to coffers.** Players spend the souls from their reserves to promote imps, contract agents and lobby pit lords to become the archdevil. This is then collected in the various sector palaces.
 - **From coffers to limbo.** The players owning any pit lords spend the souls from their coffers to carry out their machinations, the souls are then transferred to limbo.
 - **From limbo to sediment.** The souls collected in limbo are regularly distributed into the sediment on each sector.
-- **From sediment to reserves.** The souls in sediment are exploited and collected by imps into the player reserves.
+- **From sediment to reserves.** The souls in sediment are extracted by imps into the player reserves.
+
+Players are free to transfer souls between the reserves with each other at any time.
 
 #### Favors
 Favors is the secondary currency in the game. 
@@ -98,7 +100,7 @@ Each agent card is multifunctional and can have a combination of **features**, e
 #### Sector Composition
 The map board is divided into 5 sectors: Gehenna, Minauros, Erebus, Avernus and Pandemonium. Each sector is adjacent to each other and contains:
 - **Palace**, where dominating *pit lords* spend the *coffers* for their *machinations*.
-- **Sediment**, where *souls* end up from limbo, then exploited and collected by *imps*; *sigils* are also placed in the sediment.
+- **Sediment**, where *souls* end up from limbo, then extracted by *imps*; *sigils* are also placed in the sediment.
 - **Agent slots** for each player to place their *agent* to act in a sector.
 
 #### Ruling a Palace
@@ -177,8 +179,9 @@ In **contracting order** each participating player either:
 - **Spends** the required amount of souls from their reserves into the appropriate coffers and other player reserves, and **takes** an agent card into their hand. The contracting track is then refreshed.
 - **Passes** by flipping their control token on the contracting order track to indicate that they are no longer participating.
 
-The **cost** is determined by the bidding level -- more expensive closer to the deck. This cost is then modified depending on the agent card itself:
-- By the additional cost marked on the card. 
+The **cost** is determined by the bidding level -- more expensive closer to the deck. This cost is then further modified:
+- By the additional cost marked on the agent card. 
+- If the player contracting the agent has no agent cards in their hand, the contracting cost is reduced by 1.
 - If it's a faction agent and the player contracting the agent plays a different faction, they must give 1 soul to the player playing the agent's faction.
 
 The remaining souls are **paid to the appropriate coffers** depending on the contracting track from which the agent card was taken:
@@ -298,7 +301,7 @@ A list of the most important **nouns** used across the rules, with a reference t
 - **Limbo:** the collection point of **souls** before they are *distributed* to **sediment**.
 - **Coffers:** a bank of **souls** in a **palace**, which are *spent* by a **pit lord** or the **archdevil** to carry out their *machinations*.
 - **Reserves:** a bank of **souls** that the player may *spend* for their needs.
-- **Sediment:** this is part of a **sector** where **imps** reside and *exploit* **souls** to be taken into the player **reserves**; also where **sigils** are placed.
+- **Sediment:** this is part of a **sector** where **imps** reside and *extract* **souls** to be taken into the player **reserves**; also where **sigils** are placed.
 - **Map:** a collection of all **sectors**.
 - **Sector:** a location on the **map** which contains **sediment** and **agents**; during a player's turn when an **agent** acts, the **sector** is considered *active*.
 - **Grand Project:** *declared* by the **archdevil**, this is a public objective which, when *scored* by a player, gives them **points**. 

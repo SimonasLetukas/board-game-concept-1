@@ -54,29 +54,50 @@ GAMEPLAY
 		Scoring an ambition could give a new type of resource: stars (name TBD). It would be possible to expend stars when determining who dominates a sector.
 
 RULE CLARIFICATIONS (TODO)
-	
+	Introduce commander and officer (?) for agents in combat and acting agents
 
 AGENTS
 	Sector abilities:
 		Patrol. Target adjacent sectors.
 		Support. Gain energy if a supported combat is won.
+		Take souls from the coffers
 	Combat abilities:
 	Palace ambitions:
+		At any point: view the top card of any contracting deck.
+		Each time you discard an agent card you may choose to place it on the top of the appropriate contracting deck.
+	Economy:
+		Extract, Promote
+		Extract, Attack
+		Extract
+		Defend 1-2
+		Heal 1
+		Move 1
+		Protect 1
+	Logistics:
+		Promote, Move 4-5
+		Move, Move 4-5
+		Extract, Move 4-5
+		Support
+		Heal 2-4
+		Execute 1
+	Warfare:
+		Attack, Extract
+		Promote, Attack
+		Attack, Move 2-3
+		Attack, Attack
+		Patrol
+		Defend 2-3
+		Execute 2-3
+		Protect 2-3
 
 FACTIONS
 	Insurgent
 		While insurgent, imps provide +1 to combat strength
 	?
 		After combat, if the agent used in the combat has higher power than the acting agent in the sector, discard the acting agent and place the combat agent with full energy instead. 
+		When spending souls from the reserves treat limbo as part of your reserves.
 
 PUBLIC OBJECTIVES (Grand Projects)
-	Rule 3 palaces
-	Spend 5 souls from reserves into Pandemonium coffers
-	Collect 10 souls in reserves
-	Discard 3 agent cards from hand
-	Collect 5 agent cards in hand
-	Have 6 of your imps in 1 sector
-	Destroy 3 of your imps
 
 SECRET OBJECTIVES (Schemes)
 	Win a combat against the player with the most points
@@ -87,4 +108,6 @@ SECRET OBJECTIVES (Schemes)
 	As an insurgent player, dominate a sector ruled by the player with the most points
 	At the end of domination step in palace phase, become insurgent while having more imps on the map than any other player
 	At the end of planning step in operations phase, be the player in the first place in every order (contracting, operating, combat and scoring)
+		Too similar to grand project?
+	At the end of operations phase, have at least 6 of your imps on the map exhausted.
 	
