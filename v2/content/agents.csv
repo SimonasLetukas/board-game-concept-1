@@ -1,0 +1,59 @@
+Copies,Nickname,CardId,Art,FactionArt,Name,Types,Cost,Energy,Power,SectorAbilities,CombatAbilities,PalaceAmbition,Updated?
+1,blue-collar-imp,1,blue-collar-imp.png,,Blue-Collar Imp,"Agent, Economy",,3,2,"1P: defend 2.
+1A: extract. Each of your imps acts as 2 nodes during distribution.",Protect 2.,"Each time you extract, immediatelly take 1 soul from sediment into your reserves, skipping distribution.",1
+1,career-devourer,2,career-devourer.png,,Fiendy Recruiter,"Agent, Economy",,2,1,"1A: extract, promote.
+1A: give up to 6 souls to a player with imps in the active sector. For every 2 souls given, replace 1 of their imps with your imp.",,"After getting dominated by another agent in any sector, place 1 imp on any sector.",1
+1,chief-archivist-of-dis,3,chief-archivist-of-dis.png,,Chief Archivist of Dis,"Agent, Economy",,2,2,"1A: discard up to 3 agent cards from hand. For each card discarded, select one from the following: 
+- place 2 imps in the active sector; 
+- take 2 souls from the active sector's sediment into your reserves; 
+- take 1 favor.",,"Each time you would discard an agent card, you may choose to spend 1 favor to keep the card instead.",1
+1,horned-middle-manager,4,horned-middle-manager.png,,Horned Middle Manager,"Agent, Economy",,2,3,"0P: defend 1.
+1A: extract, promote.","After this combat, extract in the active sector. Treat the imps from the opposing side as nodes under your control.",This agent cannot become the archdevil.,1
+1,loan-shark,5,loan-shark.png,,Loan Shark,"Agent, Economy",,2,2,"1A: extract, attack.",Execute 1.,"As a machination: give 4 souls from reserves to any player; if you do, take 1 favor from that player.",1
+1,soul-trader,6,soul-trader.png,,Soul Trader,"Agent, Economy",,3,1,"1A: destroy 1 of your imps in the active sector. Then contract 1 agent.
+1A: heal 1, move 1.",,"When an imp is destroyed in this sector, you may allow the owning player to pay 1 soul from their reserves into this coffer; if they do, they place 1 fresh imp in this sector.",1
+1,soulforger,7,soulforger.png,,Soulforger,"Agent, Economy",,4,1,"3P: at the start of combat in this sector, place 1 imp.
+1A: promote.
+1A: heal 1.
+1A: move.","At the start of combat, place 1 imp in the active sector.","Each time you promote and place at least 2 imps, place 1 additional imp.",1
+1,ten-eyed-micro-manager,8,ten-eyed-micro-manager.png,,Ten-Eyed Micro-Manager,"Agent, Economy",,2,2,"1A: select any sector; use nodes from the selected sector to extract in the active sector.
+2A: extract. Target any sector.",Gain 1 combat strength for each other player with imps in this sector.,This pit lord is counted twice as a node during soul distribution of an extract ability.,1
+1,urban-planner,9,urban-planner.png,,Urban Planner,"Agent, Economy",1,2,3,1A: extract. Take 1 favor for each player with imps in the active sector.,Protect 1.,The sediment of this sector is counted twice as a node during soul distribution from limbo.,1
+1,apostatic-courrier,10,agents/generic-mobility/apostatic-courrier.png,,Apostatic Courrier,"Agent, Logistics",,2,2,"1P: support.
+1A: move 4, move 4.","At the start of combat, move 1 from an adjacent sector.","Each time you move, you may take 1 imp owned by another player as part of the move.",1
+1,corporate-gravedigger,11,agents/generic-mobility/corporate-gravedigger.png,,Corporate Gravedigger,"Agent, Logistics",,2,2,"1A: extract, move 5.","If you win the combat, place 1 favor from supply on the acting agent.",Each time you discard an agent card you may choose to place it on the top of the appropriate contracting deck.,1
+1,friday-afternoon-ghost,12,agents/generic-mobility/friday-afternoon-ghost.png,,Friday Afternoon Ghost,"Agent, Logistics",,3,2,"1P: support.
+1A: move any number of your imps in the active sector to any number of sectors with your imps.
+1A: heal 4.","Before combat strength is counted, heal 4. This may target supporting imps.",Your heal abilities may target any sector.,1
+1,hellhound-master,13,agents/generic-mobility/hellhound-master.png,,Hellhound Master,"Agent, Logistics",,3,3,"1P: patrol. May target other patrol abilities.
+1A: attack, move 4.",,"When agent cards are revealed during planning step in operations phase you may spend 1 soul from reserves into any coffer. If you do, replace your acting agent with another agent from hand in the sector associated with that coffer.",1
+1,performance-review-pit-lord,14,agents/generic-mobility/performance-review-pit-lord.png,,Performance Review Pit Lord,"Agent, Logistics",,2,3,"1A: select an acting agent in this sector. The player must return the agent to their hand and place another agent, if able.",Any favors added on top of the opponent's acting agent in this sector increase your combat strength by 1.,"If this agent failed to dominate, return it to the owner's hand instead of discarding.",1
+1,sinner-intake-officer,15,agents/generic-mobility/sinner-intake-officer.png,,Sinner Intake Officer,"Agent, Logistics",,3,1,"1A: promote.
+1A: heal 2.
+1A: move 3.
+2A: promote, heal 2, move 4.","If you're attacking, execute 2. If you're defending, protect 2.",Each time you heal you may target 1 additional imp.,1
+1,stealthy-auditor,16,agents/generic-mobility/stealthy-auditor.png,,Stealthy Auditor,"Agent, Logistics",,3,3,"1P: support.
+2P: after another agent pays energy in this sector, they must pay 1 more energy.
+1A: move 5. May target active sector as destination from another sector.",,At any point: view the top card of any contracting deck.,1
+1,tenured-director,17,agents/generic-mobility/tenured-director.png,,Tenured Director,"Agent, Logistics",1,2,2,"1A: move 3. Then, switch places with an acting agent you own in another sector.","If you're defending, the combat strength of each imp on the attacking side is reduced by 1 (minimum of 0).","When an acting agent would reach 0 energy, you may take 1 soul from your reserves into the coffers of that agent's sector; if you do, that agent gains 1 energy.",1
+1,unpaid-infern,18,agents/generic-mobility/unpaid-infernal.png,,Unpaid Infern,"Agent, Logistics",,3,1,"1P: support. Gain 1 energy if a supported combat is won.
+1A: heal 3.","If you lose the combat, your opponent must give you 2 souls from reserves, if able.",Each of your acting agent starts with 1 more energy.,1
+1,avernian-war-machine-integrator,19,agents/generic-warfare/avernian-war-machine-integrator.png,,War Machine Integrator,"Agent, Warfare",,2,2,"1P: patrol. May target adjacent sectors.
+1A: attack. May choose adjacent sector as a target.",Execute 2. Target opponent's imps in any sector.,Each favor on any acting agent you control adds 1 more to domination count.,1
+1,casual-friday-lich,20,agents/generic-warfare/casual-friday-lich.png,,Casual Friday Lich,"Agent, Warfare",,3,1,"1P: when a number of imps would be destroyed in this sector, set them as exhausted and do not destroy them.
+1A: promote, attack.",Power of enemy agent is reduced to 0 for this combat.,"If you are the attacker and lose, your imps do not become exhausted.",1
+1,contract-lawyer,21,agents/generic-warfare/contract-lawyer.png,,Contract Lawyer,"Agent, Warfare",,3,3,"1P: defend 3.
+1P: patrol ability that targetted you has no effect, unless the player targetting you gives 1 soul from their reserves.
+1A: attack.",Immediatelly move the opponent to the bottom of the scoring order.,"Each time a combat you participate in is tied (before the tie is resolved), take 1 soul from limbo to reserves.",1
+1,crag-warden,22,agents/generic-warfare/crag-warden.png,,Crag Warden,"Agent, Warfare",,3,2,"1P: defend 2.
+1P: patrol. May target defend abilities.
+1A: attack.",Protect 2. Supporting imps are not counted in this combat.,Reduce the number of imps able to move to this sector by 1 (move X which targets this sector is treated as X-1 instead).,1
+1,deep-pit-lord,23,agents/generic-warfare/deep-pit-lord.png,,Deep Pit Lord,"Agent, Warfare",1,2,4,1A: exhaust up to 3 imps in the active sector. Attack.,Execute 4. May convert the destroyed enemy imps into your fresh imps.,When contracting agents you may destroy X of your imps. Reduce the bidding level cost by X. ,1
+1,expense-report-fury,24,agents/generic-warfare/expense-report-fury.png,,Expense Report Fury,"Agent, Warfare",,2,3,"1P: patrol.
+1A: attack, attack.","If you win the combat, switch any 2 player positions in any single order.","Your agents acting in this sector gain the following sector abilities:
+1P: patrol.
+1A: attack.",1
+1,inquisitor,25,agents/generic-warfare/inquisitor.png,,The Dark Mage,"Agent, Warfare",,2,2,"1A: attack, extract.","When agent cards are revealed, you may force the opponent to select another card from their hand, if able. ","At the start of combat when agent cards are revealed you may give 1 favor to the opponent. If you do, switch your agent with another one from your hand.",1
+1,shadow-syndicate,26,agents/generic-warfare/shadow-syndicate.png,,The Shadow Syndicate,"Agent, Warfare",,2,2,1A: extract. Treat the sigil of wrath as a node under your control.,Protect 1. Gain 1 combat strength for each sector ruled by you.,"After each domination step in palace phase, if this agent is a pit lord, take 2 souls from coffers of this sector to reserves.",1
+1,stygian-frostrider,27,agents/generic-warfare/stygian-frostrider.png,,Stygian Frostrider,"Agent, Warfare",,3,2,"1P: whenever imps are moved into this sector, move 3.
+1A: attack, move 2.","If your opponent has a higher position on the operating order, gain 1 combat strength and execute 1.","After resolving move, you may attack the target sector with the moved imps.",1

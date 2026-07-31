@@ -55,16 +55,41 @@ GAMEPLAY
 
 RULE CLARIFICATIONS (TODO)
 	Introduce commander and officer (?) for agents in combat and acting agents
+	Do a simplification pass through LLM using ste-writing-skill
+		Start with reviewing the layout structure and adjusting sections so it's easier to find information and the flow is logical -- focus on moving as much content from concept to the turn structure as possible.
+		Move the content to fit the revised layout structure.
+		Then define the core terminology and adjust the glossary accordingly.
+		Apply the core terminology to the rules text.
+		Do multiple passes of applying ste-writing-skill to the rules, as long as the linter requirements are not fully met.
+		Apply the core terminology to the content descriptions (in content folder).
+
+MECHANIC IMPROVEMENTS
+	A way for agents in combat to become acting agents / pit lords?
 
 AGENTS
 	Sector abilities:
-		Patrol. Target adjacent sectors.
-		Support. Gain energy if a supported combat is won.
-		Take souls from the coffers
+		When any agent pays energy you may pay the same amount of energy instead.
+		Extract. Target every ruled sector.
+		? After discarding this agent when the energy reaches 0, you may place another agent from your hand on this sector.
+		? Choose two players with imps in the active sector. Force one of them to attack the other.
+		? If you do not rule this sector, each other player with imps in this sector must move 2.
 	Combat abilities:
+		Take souls from the coffers (if you win the combat?)
+		Supporting imps are not counted in this combat.
+		Gain 2 combat strength if the combat is in a sector with a sigil.
+		If you win this combat, you may force the opponent to move the exhausted imps to a sector you choose.
+		At the start of combat, destroy 1 of opponent's participating (or supporting) imp.
+		If you win the combat, your opponent must give you 3 souls from reserves, if able. Otherwise you get execute 3.
+		If you give 2 favors to the opponent: skip the combat and select an adjacent sector. The opponent must execute move 2 into the selected sector.
+		Ignore enemy agent combat abilities.
+		Spend up to 6 souls from your reserves to Avernus' coffers. For each 2 souls spent, gain 1 combat strength.
+		? At the start of combat, you may destroy any number of your imps participating in the combat to gain 3 combat strength for each imp destroyed.
 	Palace ambitions:
-		At any point: view the top card of any contracting deck.
-		Each time you discard an agent card you may choose to place it on the top of the appropriate contracting deck.
+		Defend abilities additionally provide 1 to combat strength.
+		? Score 1 point each time you win a combat as a defender.
+		? After moving, if the target sector is not ruled by you, take 1 soul from the target sector coffers into reserves.
+		? For every 2 heals that did not result in imps switching to the fresh side, take 1 soul from limbo to your reserves.
+		
 	Economy:
 		Extract, Promote
 		Extract, Attack
@@ -77,6 +102,7 @@ AGENTS
 		Promote, Move 4-5
 		Move, Move 4-5
 		Extract, Move 4-5
+		Patrol
 		Support
 		Heal 2-4
 		Execute 1
@@ -96,6 +122,12 @@ FACTIONS
 	?
 		After combat, if the agent used in the combat has higher power than the acting agent in the sector, discard the acting agent and place the combat agent with full energy instead. 
 		When spending souls from the reserves treat limbo as part of your reserves.
+		Adapt luciferian card manipulation (everything revolves around 1 agent, able to give that agent to other players, switch it with other agents when revealed, gaining resources when others use it)
+	Imp sacrificer?
+		If you have less imps than your opponent, imps provide +1 to combat strength.
+
+LIMITATIONS
+	Support abilities cost 1 more energy.
 
 PUBLIC OBJECTIVES (Grand Projects)
 

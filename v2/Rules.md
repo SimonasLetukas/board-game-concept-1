@@ -13,8 +13,8 @@ The first player to **collect 20 points** wins, at which point the game ends. Ti
 Points are scored primarily by contributing to the publicly declared grand projects or through secret individual schemes (TBD).
 
 ## Components
-- **Boards:** map board with 5 sectors; palace board with pit lord and archdevil palaces, contracting order, operating order, combat order, scoring order, grand projects and limbo; contracts board with agent cards on economy, logistics and warfare tracks. 
-- **Player pieces (4 players):** 8 imps (2-sided -- fresh and exhausted); 10 control tokens.
+- **Boards:** map board with 5 sectors of overseers and sediments, also with combat order track and operation order tracks; palace board with pit lord and archdevil palaces and coffers, also limbo, grand project track, scoring order track and player score track; contracts board with agent cards on economy, logistics and warfare tracks, also contracting order track. 
+- **Player pieces (4 players):** 8 imps (2-sided -- fresh and exhausted); 20 control tokens.
 - **Faction pieces (TBD factions):** 1 faction card; 2 economy, 2 logistics and 2 warfare agent cards; 1 grand project card.
 - **Cards:** 10 economy, 10 logistics and 10 warfare agent cards; 10 grand project cards; 10 scheme cards (TBD).
 - **Tokens:** 35 souls; 1 sigil of greed; 1 sigil of wrath; 20 favors, 50 energy cubes.
@@ -82,14 +82,14 @@ Each player has a hand of agent cards. These cards are **public information** fo
 
 Agent cards are bought with souls during contracting phase. In most cases, once used, the agent card is discarded to the bottom of the appropriate contract deck. 
 
-Agent cards are used in combat and to act in map operations. From acting on the map, the agents have the opportunity to become pit lords and later archdevils. 
+Agent cards are used in combat as commanders and to act in map operations as overseers. From acting on the map, the agents have the opportunity to become pit lords and later archdevils. 
 
 A face-up agent card played on the map or palace boards always has an owner player. 
 
 Each agent card is multifunctional and can have a combination of **features**, explained below:
 - **Card type.** A card type is defined by its function (economy, logistics, warfare), origin (faction specific or generic) and any combination of keywords. Various game rules may reference the card type.
 - **Additional cost.** An agent card may have an additional cost of souls when it is bought from the contract track. By default, the additional cost is 0 and the feature is not shown.
-- **Energy.** A number that shows how many times the agent is allowed to act during the operations phase.
+- **Energy.** A number that shows how many times the agent (overseer) is allowed to act during the operations phase.
 - **Power.** A number which represents how strong the agent is during domination and combat.
 - **Sector abilities.** Effects that can be executed during operations phase.
 - **Combat abilities.** Effects that can be executed before, during or after combat. 
@@ -101,7 +101,9 @@ Each agent card is multifunctional and can have a combination of **features**, e
 The map board is divided into 5 sectors: Gehenna, Minauros, Erebus, Avernus and Pandemonium. Each sector is adjacent to each other and contains:
 - **Palace**, where dominating *pit lords* spend the *coffers* for their *machinations*.
 - **Sediment**, where *souls* end up from limbo, then extracted by *imps*; *sigils* are also placed in the sediment.
-- **Agent slots** for each player to place their *agent* to act in a sector.
+- **Agent slots** for each player to place their *agent* to act as an overseer in a sector.
+
+There is one palace which is not placed within a sector and has no coffers: archdevil's palace.
 
 #### Ruling a Palace
 The palace is considered ruled by the player whose agent is a pit lord or the archdevil.
@@ -118,7 +120,7 @@ Both the pit lord and the archdevil get additional palace abilities while they r
 A player is considered insurgent if they do not rule any palace as a pit lord or the archdevil.
 
 #### Sector Abilities
-An agent card added to the agent slot allows the player to influence the sector operations through sector abilities: 
+An overseer (agent card added to the agent slot) allows the player to influence the sector operations through sector abilities: 
 - Sector **actions (A)**: effects that the active player chooses to execute during their turn.
 - Sector **passives (P)**: effects that may be executed during any player's turn. 
 
@@ -129,8 +131,8 @@ The most common sector abilities are described as keywords, noted below.
 Sector actions:
 - **Move X:** take X number of your imps in the active sector and move them to another sector. 
 - **Attack:** select a defending player with imps or agent in the active sector to initiate combat (described in more detail later in the combat section).
-- **Extract X:** distribute incomplete cycles of X souls from the active sector's sediment to reserves of players owning the nodes in priority -- pit lord, agents, imps.
-- **Promote:** place fresh imps to the active sector (or any sector, if the active sector is Gehenna); pay 1 soul (+1 if the active sector is not Gehenna) to Gehenna's coffers for each imp placed.
+- **Extract X:** distribute incomplete cycles of X souls from the active sector's sediment to reserves of players owning the nodes in priority -- pit lord, overseers, imps.
+- **Promote X:** place up to X fresh imps to the active sector (or any sector, if the active sector is Gehenna); pay 1 soul (+1 if the active sector is not Gehenna) from reserves to Gehenna's coffers for each imp placed.
 - **Heal X:** switch X number of imps in the active sector to their fresh side. 
 
 Sector passives:
@@ -144,9 +146,9 @@ An example of how the sector abilities may be described:
 Which reads as: pay 2 energy to execute "defend 4" ability as a passive. In this example, the passive sector ability would be activated during a combat.
 
 #### Combat
-At the start of the combat, the attacking and defending players **in secret** must select to participate 1 agent card from their hand, if able. Otherwise, the acting agent in the sector participates, if present. The cards are revealed at the same time.
+At the start of the combat, the attacking and defending players **in secret** must select to participate 1 agent card as a commander from their hand, if able. Otherwise, the overseer in the active sector participates, if present. The cards are revealed at the same time.
 
-When the agent cards are revealed, in scoring order the players may add any number of favors once. 
+When the agent cards are revealed, in combat order the players may add any number of favors once. 
 
 Then each side calculates their combat strength (including support):
 - Each fresh imp provides 1 combat strength; each exhausted imp provides 0 combat strength. 
@@ -155,9 +157,9 @@ Then each side calculates their combat strength (including support):
 
 The side with more combat strength wins. Ties are resolved in the combat order.
 
-The losing side destroys exhausted imps, then exhausts fresh imps. The losing player may move their exhausted imps from the active sector to an adjacent sector. The losing player then loses 1 energy on their acting agent in the active sector.
+The losing side destroys exhausted imps, then exhausts fresh imps. The losing player may move their exhausted imps from the active sector to an adjacent sector. The losing player then loses 1 energy on their overseer in the active sector.
 
-If the sector had a **sigil of wrath**, the losing player must give to the winning player a number of souls equal to the difference between the final combat strengths.
+If the sector had a **sigil of wrath**, the losing player must give to the winning player a number of souls from reserves equal to the difference between the final combat strengths.
 
 The destroyed imps are returned to the player's supply.
 
@@ -206,23 +208,23 @@ In the **first round** the contracting phase is special:
 The operation phase consists of **2 steps**: planning and acting.
 
 #### 1. Planning Step
-Each player simultaneously **places** face-down agent cards from their hand on up to 5 sectors.
+Each player simultaneously **places** face-down agent cards as overseers from their hand on up to 5 sectors.
 
-When everyone is ready, all face-down agents are **flipped** face-up. Each player places a number of energy cubes on each face-up agent card equal to its energy.
+When everyone is ready, all face-down overseers are **flipped** face-up. Each player places a number of energy cubes on each face-up overseer equal to its energy.
 
-Then, **operating order** is updated. It is determined by counting the power of all player's agents and sorting the combined power in an ascending order. Any ties are resolved in the combat order. 
+Then, **operating order** is updated. It is determined by counting the power of all player's overseers and sorting the combined power in an ascending order. Any ties are resolved in the combat order. 
 
-Finally, in operating order each player may place any number of **favors** on any number of face-up agents.
+Finally, in operating order each player may place any number of **favors** on any number of overseers.
 
 #### 2. Acting Step
 In **operating order** each participating player either:
-- **Executes** a sector ability of one of their face-up agents.
+- **Executes** a sector ability of one of their overseers.
 - **Passes** by flipping their control token on the operating order track to indicate that they are no longer participating.
 
 Sector ability execution follows these steps:
-1. **Pay** the energy cost: remove the required number of energy tokens from the face-up agent card.
-1. **Execute** the sector abilities associated with the cost. During execution, the sector with this agent card is considered active.
-1. **Check** energy count of all face-up agent cards. If any of the face-up agent cards no longer has any energy, it is discarded.
+1. **Pay** the energy cost: remove the required number of energy tokens from the overseer.
+1. **Execute** the sector abilities associated with the cost. During execution, the sector with this overseer is considered active.
+1. **Check** energy count of all overseers. If any of the overseers no longer has any energy, it is discarded.
 
 When every player **passes**, the next phase begins. 
 
@@ -234,21 +236,21 @@ Whenever multiple agent cards are **discarded** at the same time, follow the ope
 The palace phase consists of 3 steps: domination, lobbying and machinations.
 
 #### 1. Domination Step
-After the operation phase, the remaining face-up agents try to **dominate** their sectors.
+After the operation phase, the remaining overseers try to **dominate** their sectors.
 
 To determine who dominates a sector, each player calculates their **domination count**:
 - Each fresh imp adds 1.
-- Acting agent adds their power.
-- Each favor that was placed on the acting agent adds 2.
+- Overseer adds their power.
+- Each favor that was placed on the overseer adds 2.
 - If the sector is ruled by another player, add 1.
 
 The player with the highest domination count has the **opportunity** to dominate the sector if:
-- They have an acting agent.
+- They have an overseer.
 - The total count is higher than the power of the current pit lord.
 
 **Ties** are resolved in the combat order.
 
-If the domination is **successful**, the acting agent becomes the pit lord and the current pit lord agent is discarded.
+If the domination is **successful**, the overseer becomes the pit lord and the current pit lord agent is discarded.
 
 Finally, the **archdevil** player must pay a number of souls from their reserves into Pandemonium coffers for each control token on the agent card. This player gains the same amount of favors. If the player is unable to pay, the archdevil agent is discarded and the player must return all of their favors.
 
@@ -294,7 +296,9 @@ Then **resolve** the end of round steps and start the next round:
 A list of the most important **nouns** used across the rules, with a reference to the relevant *actions*. 
 - **Souls:** the main currency circulating the hell in eternity.
 - **Imp:** a **soul** with a *promotion*, used for basic labor in the **sectors**.
-- **Agent:** an independent contractor, who helps to organize **imps** for work and may occupy important political positions as a **pit lord** or even **archdevil**. 
+- **Agent:** an independent contractor, who helps to organize **imps** for work as an **overseer**, to lead *attacks* as a **commander**, and may also occupy important political positions as a **pit lord** or even **archdevil**. 
+- **Overseer:** an **agent** *operating* in a **sector**.
+- **Commander:** an **agent** who leads the forces in *combat*.
 - **Pit Lord:** an **agent** who has *dominated* a **sector** in order to achieve their *ambitions* and carry out *machinations* in the **sector's palace**.
 - **Archdevil:** a **pit lord** rising in power through *lobbying*, who builds their legacy through *declaring* **grand projects**.
 - **Palace:** a place from which a **pit lord** or the **archdevil** *rules* and carries out their *machinations*.
